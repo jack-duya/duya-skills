@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 线索短视频"
+  short_description: "创作与改写以获客为目的的短视频，优化开头、口播、情绪和镜头安排。"
+  default_prompt: "用 $duya-video，把这段装修口播改得像老板在工地跟业主说话，给完整旁白和镜头顺序。"
+policy:
+  allow_implicit_invocation: true

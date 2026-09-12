@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 获客直播"
+  short_description: "设计获客直播话题、整场结构、讲稿和过渡，或依据现有回放排查进房、留人和表达问题，给可以直接替换的讲法。"
+  default_prompt: "用 $duya-live，这段直播讲解太专业，观众听不懂，帮我找断点并写能直接替换的讲稿。"
+policy:
+  allow_implicit_invocation: true

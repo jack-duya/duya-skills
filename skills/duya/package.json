@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "version": "0.4.0",
+  "repository": "jack-duya/duya-skills",
+  "branch": "main",
+  "components": [
+    "duya",
+    "duya-positioning",
+    "duya-acquisition",
+    "duya-diagnose",
+    "duya-content-plan",
+    "duya-research",
+    "duya-video",
+    "duya-xhs",
+    "duya-wechat",
+    "duya-live",
+    "duya-matrix",
+    "duya-team",
+    "duya-learning",
+    "duya-update"
+  ]
+}

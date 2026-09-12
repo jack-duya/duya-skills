@@ -4,16 +4,18 @@
 
 > 面向经营者与流量团队的商业与线索获客 Skills。把你的生意、素材和卡点交给墨涅斯，拿到有依据的判断、能执行的方案和能直接用的内容。
 
-[![Version](https://img.shields.io/badge/version-0.3.0-6D28D9.svg?style=flat-square)](VERSION)
-[![Skills](https://img.shields.io/badge/Skills-1%20入口%20%2F%2012%20能力-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
+[![Version](https://img.shields.io/badge/version-0.4.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Skills](https://img.shields.io/badge/Skills-1主入口%20%2F%2012快捷%20%2F%201更新-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
 [![Knowledge](https://img.shields.io/badge/知识库-23%20篇-0F766E.svg?style=flat-square)](skills/duya/knowledge/INDEX.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
 **支持：Codex、Claude Code、Cursor，以及能够加载完整 Skills 目录的 Agent。** 不同客户端的入口与 MCP 配置方式见[安装指南](docs/安装指南.md)。
 
-duya-skills 由[渡鸦](https://github.com/jack-duya)维护。以商业与获客知识为专业基础，用**万流归因诀：由果推因、由因解果**看清真正的问题，再完成内容创作、矩阵安排与团队设计。当前提供 **1 个自然对话入口、12 项内部能力和 23 篇专业知识**。
+duya-skills 由[渡鸦](https://github.com/jack-duya)维护。以商业与获客知识为专业基础，用**万流归因诀：由果推因、由因解果**看清真正的问题，再完成内容创作、矩阵安排与团队设计。当前提供 **1 个主入口、12 个业务快捷入口、1 个更新入口**，共用 **12 项业务能力和 23 篇专业知识**。
 
-**v0.3.0 更新：** 公众号能力加入写作后排版与已有文章纯排版，提供 **12 套原创主题**、可复制正文 HTML、浏览器预览和检查报告。商业判断、模板研究、矩阵团队与本地记忆继续沿用同一个入口。[查看排版教程](docs/公众号排版.md) · [浏览 12 套主题](https://jack-duya.github.io/duya-skills/wechat-gallery/)
+**v0.4.0 更新：** 可以直接选 `$duya-video`、`$duya-wechat` 等具体能力，也可以继续用 `$duya` 自然提问；在渡鸦对话里说“更新渡鸦”，就按当前安装方式执行更新。旧版普通安装首次升级需运行一次完整安装命令，插件安装沿用原生更新。[查看更新指南](docs/更新指南.md)
+
+公众号排版自 v0.3.0 加入，提供 **12 套原创主题**、可复制正文 HTML、浏览器预览和检查报告。[查看排版教程](docs/公众号排版.md) · [浏览 12 套主题](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
 [快速开始](#快速开始) · [安装](#安装) · [能力一览](#能力一览) · [公开方法手册](#公开方法手册) · [完整使用教程](docs/新手入门.md) · [更新记录](CHANGELOG.md)
 
@@ -58,24 +60,27 @@ $duya 三家门店都有现场素材，老板和一位剪辑怎么做内容矩�
 $duya 读这份课程，提炼能用于我生意的方法，并说明哪些情况不适用。
 ```
 
-Claude Code 直接安装 Skill 后使用 `/duya`；通过下方插件市场安装后使用 `/duya:duya`。其他客户端使用其 Skill 选择方式。12 项内部能力都由同一入口完成，无需再安装 12 个独立命令。
+想直接进入某项工作，也可以输入 `$duya-video` 写短视频、`$duya-wechat` 写公众号或排版。Claude Code 直接安装对应 `/duya-video`，插件安装对应 `/duya:duya-video`；主入口分别是 `/duya` 和 `/duya:duya`。其他客户端使用其 Skill 选择方式。
 
 ## 能力一览
 
-| 工作目标 | 对应能力 | 常见产出 |
+主入口 `$duya` 负责自然对话与任务组合。下面 13 个快捷入口可以直接选择；前 12 个处理业务，最后一个维护安装。它们读取同一份渡鸦核心与知识库，业务方法不重复维护。
+
+| Codex 快捷入口 | 能力与适用问题 | 常见产出 |
 |---|---|---|
-| 找对客户，说明为什么值得买 | [客户与商业定位](skills/duya/internal/duya-positioning/GUIDE.md) | 客户处境、购买理由、定位与产品取舍 |
-| 从零开始或调整已有获客路线 | [获客体系搭建](skills/duya/internal/duya-acquisition/GUIDE.md) | 平台、形式、准备工作与起步方案 |
-| 排查播放、咨询、账号或投入问题 | [获客问题诊断](skills/duya/internal/duya-diagnose/GUIDE.md) | 原因判断、条件与实际改法 |
-| 想清楚接下来讲什么 | [选题与内容规划](skills/duya/internal/duya-content-plan/GUIDE.md) | 泛垂直、信任、购买判断与咨询选题 |
-| 研究爆款和相邻赛道 | [模板与内容研究](skills/duya/internal/duya-research/GUIDE.md) | 模板正文、结构机制、迁移条件 |
-| 写得好看，也让客户看得懂 | [线索短视频](skills/duya/internal/duya-video/GUIDE.md) | 完整脚本、开头、镜头与素材安排 |
-| 写标题、单图、笔记与搜索内容 | [小红书与图文](skills/duya/internal/duya-xhs/GUIDE.md) | 标题、封面、正文和必要互动设计 |
-| 用长文讲清问题，完成写作与排版 | [公众号写作与排版](skills/duya/internal/duya-wechat/GUIDE.md) | 完整文章、12 套主题、正文 HTML、预览与检查报告 |
-| 设计直播内容或改已有回放 | [获客直播](skills/duya/internal/duya-live/GUIDE.md) | 主题串、讲稿、过渡与具体修改 |
-| 把内容做成可持续的分发与生产 | [矩阵与批量生产](skills/duya/internal/duya-matrix/GUIDE.md) | 自营/合作选择、图文与短视频生产安排 |
-| 先招谁，谁来判断，怎样培养 | [线上获客团队](skills/duya/internal/duya-team/GUIDE.md) | 角色、工作样本、交接与训练方案 |
-| 理解课程，积累可复用的方法 | [量子阅读与学习](skills/duya/internal/duya-learning/GUIDE.md) | 深读、反例、方法整合与长期保存 |
+| `$duya-positioning` | [客户与商业定位](skills/duya-positioning/SKILL.md)：服务谁、为什么买、产品怎样承接 | 客户处境、购买理由、定位与产品取舍 |
+| `$duya-acquisition` | [获客体系搭建](skills/duya-acquisition/SKILL.md)：从零开始或调整已有路线 | 平台、形式、准备工作与起步方案 |
+| `$duya-diagnose` | [获客问题诊断](skills/duya-diagnose/SKILL.md)：播放、咨询、人群、账号或投入有问题 | 原因判断、条件与实际改法 |
+| `$duya-content-plan` | [选题与内容规划](skills/duya-content-plan/SKILL.md)：不知道下一步讲什么 | 具体切口、内容形式与制作优先次序 |
+| `$duya-research` | [模板与内容研究](skills/duya-research/SKILL.md)：找模板、拆爆款、迁移相邻赛道 | 真实模板、表达机制、迁移条件与改稿 |
+| `$duya-video` | [线索短视频](skills/duya-video/SKILL.md)：写完整脚本、优化开头与口播 | 可拍稿、镜头顺序、情绪与素材安排 |
+| `$duya-xhs` | [小红书与图文](skills/duya-xhs/SKILL.md)：写标题、封面、单图、笔记与逐页图文 | 标题、封面、正文和必要互动设计 |
+| `$duya-wechat` | [公众号写作与排版](skills/duya-wechat/SKILL.md)：长文写作、改稿或保留原文排版 | 完整文章、12 套主题、正文 HTML、预览与报告 |
+| `$duya-live` | [获客直播](skills/duya-live/SKILL.md)：设计直播内容或排查回放断点 | 主题串、讲稿、过渡与可替换讲法 |
+| `$duya-matrix` | [矩阵与批量生产](skills/duya-matrix/SKILL.md)：组织账号、合作分发与素材量产 | 自营/合作选择、账号职责和生产安排 |
+| `$duya-team` | [线上获客团队](skills/duya-team/SKILL.md)：先招谁、怎样分工和培养 | 角色、招聘试做、取材交接与训练方法 |
+| `$duya-learning` | [量子阅读与学习](skills/duya-learning/SKILL.md)：深读课程、提炼方法与业务应用 | 原理、条件、反例、应用示范与长期保存 |
+| `$duya-update` | [更新渡鸦](skills/duya-update/SKILL.md)：检查或更新当前安装 | 当前与最新版本、备份、更新结果和重新加载方式 |
 
 每项能力的适用时机、可复制的提问和主要结果，见[新手入门与 Skill 全目录](docs/新手入门.md#skill-全目录)。
 
@@ -85,7 +90,7 @@ Claude Code 直接安装 Skill 后使用 `/duya`；通过下方插件市场安�
 
 一次排版生成三个文件：**正文 `.html`、预览 `.preview.html`、检查报告 `.report.json`**。打开预览页复制正文，再粘贴到公众号编辑器；复制按钮不可用时可选中正文手动复制。发布前仍需在编辑器和手机预览中检查样式、图片与表格。
 
-本地排版工具使用 **Python 3.10+ 标准库**，无需额外安装 pip 依赖；客户端需要文件读写和 Python 执行能力。你仍然只使用 `duya` 一个入口。
+本地排版工具使用 **Python 3.10+ 标准库**，无需额外安装 pip 依赖；客户端需要文件读写和 Python 执行能力。使用 `$duya-wechat` 可直接进入，也可以继续向 `$duya` 提问。
 
 [查看完整排版教程](docs/公众号排版.md) · [在线比较 12 套主题](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
@@ -96,12 +101,14 @@ Claude Code 直接安装 Skill 后使用 `/duya`；通过下方插件市场安�
 在终端执行：
 
 ```bash
-npx -y skills add jack-duya/duya-skills -g --skill duya
+npx -y skills add jack-duya/duya-skills -g --skill '*'
 ```
 
-按提示选择正在使用的 Agent。安装后重新开启对话，选中 `duya`，或用客户端对应的命令开始。
+按提示选择正在使用的 Agent；也可以在命令末尾加 `--agent codex` 等客户端名称。安装后重新开启对话，选中 `duya` 或对应快捷入口。
 
-该命令安装完整 Skill、知识库与工具。**模板 MCP 需要单独添加到客户端**，配置只需一个 HTTP 地址，步骤见[安装指南](docs/安装指南.md#模板-mcp-配置)。不配置在线模板库，也可以使用本地知识完成判断和创作。
+`--skill '*'` 安装这个仓库的全部 **14 个入口**，包含核心、知识库与工具，不是安装所有客户端的 `--all`。快捷入口依赖同级的 `duya` 核心；只安装 `--skill duya` 仍可自然对话完成全部业务，但不会出现独立快捷命令。
+
+**模板 MCP 需要单独添加到客户端**，配置只需一个 HTTP 地址，步骤见[安装指南](docs/安装指南.md#模板-mcp-配置)。不配置在线模板库，也可以使用本地知识完成判断和创作。
 
 ### Claude Code 插件市场
 
@@ -112,19 +119,21 @@ claude plugin marketplace add jack-duya/duya-skills
 claude plugin install duya@duya-skills
 ```
 
-安装后重新打开会话，用 `/duya:duya` 提问。插件包含同一个主入口、全部内部能力与知识，以及模板库 MCP 配置。
+安装后重新打开会话，用 `/duya:duya` 提问，或直接用 `/duya:duya-video`、`/duya:duya-wechat` 等快捷入口。插件包含全部 14 个入口、共享能力与知识，以及模板库 MCP 配置。
 
 完整步骤、成功检查和常见故障见[安装指南](docs/安装指南.md)。
 
 ### 更新
 
-通过 Skills CLI 安装时，可以重新执行安装命令，只选择 `duya`；提示已有安装时确认更新此项即可：
+**已安装 0.4.0 或更新版本：**在渡鸦对话里直接说“更新”或“更新渡鸦”，也可以使用 `$duya-update`。说“检查更新”只查看，不改文件。
+
+**普通安装从 0.3.x 及更早版本首次升级：**旧版没有更新器，先运行一次完整安装命令；Claude Code 插件用户直接走原生插件更新，无需另装独立 Skill：
 
 ```bash
-npx -y skills add jack-duya/duya-skills -g --skill duya
+npx -y skills add jack-duya/duya-skills -g --skill '*'
 ```
 
-插件市场的更新方式见[更新与卸载](docs/安装指南.md#更新与卸载)。你的项目记忆默认在 `~/.duya/memory/`，独立于安装目录。更新完成后开启新对话。变更内容见[版本记录](CHANGELOG.md)。
+普通安装的更新器需要 Python 3.10+，会将官方 `main` 的最新提交固定为本次下载版本；替换前备份官方文件，保留未知个人文件和 `~/.duya/memory/`。自行改过的官方文件进入备份，新官方内容生效。插件缓存使用客户端原生更新；源码 Git 目录只在来源正确、工作区干净时快进更新。网络或权限失败会明确报告，更新后可能需要新开对话。[完整更新指南](docs/更新指南.md) · [版本记录](CHANGELOG.md)
 
 ## duya-skills 怎样工作
 

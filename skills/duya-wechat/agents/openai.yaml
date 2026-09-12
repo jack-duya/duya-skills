@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 公众号写作与排版"
+  short_description: "撰写、改写公众号长文，或保留原文生成十二主题中的排版HTML、复制预览和检查报告。"
+  default_prompt: "用 $duya-wechat，这篇文章不要改文字，自动选主题，给我能打开并复制到公众号的预览页。"
+policy:
+  allow_implicit_invocation: true

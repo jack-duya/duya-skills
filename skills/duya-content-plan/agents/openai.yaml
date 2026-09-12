@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 选题与内容规划"
+  short_description: "策划起号、日常更新和系列内容的具体选题，连接客户处境、观看理由与购买理由，给出切口、形式和制作优先次序。"
+  default_prompt: "用 $duya-content-plan，家政新号不知道发什么，用现有服务现场素材给我一组能拍的选题。"
+policy:
+  allow_implicit_invocation: true

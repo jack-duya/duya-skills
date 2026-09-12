@@ -10,6 +10,7 @@ import unicodedata
 from urllib.parse import unquote, urlsplit
 import xml.etree.ElementTree as ET
 from build_handbook import render, OUTPUT
+from build_shortcuts import generated_files
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = ROOT / "skills/duya"
@@ -61,11 +62,24 @@ for source, text in texts.items():
         require(destination.exists(), f"Missing link in {label}: {target}")
         if source.is_relative_to(SKILL):
             require(destination.is_relative_to(SKILL), f"Skill dependency outside portable folder: {label}: {target}")
+        elif source.is_relative_to(SKILL.parent):
+            component = SKILL.parent / source.relative_to(SKILL.parent).parts[0]
+            require(destination.is_relative_to(SKILL) or destination.is_relative_to(component),
+                    f"Shortcut dependency outside its component/shared core: {label}: {target}")
         if parts.fragment and destination in anchor_cache:
             require(unquote(parts.fragment) in anchor_cache[destination], f"Missing anchor in {label}: {target}")
     require(not re.search(r"[DF]:[\\/]自营|C:[\\/]Users[\\/]Administrator", text, re.I), f"Developer path in {readable(source)}")
 
-require(len(list(SKILL.parent.rglob("SKILL.md"))) == 1, "Expected exactly one registered SKILL.md")
+registry = json.loads((SKILL / 'references/shortcuts.json').read_text(encoding='utf-8'))['entries']
+registered = list(SKILL.parent.glob('*/SKILL.md'))
+expected_names = {'duya'} | {entry['name'] for entry in registry}
+require(len(registry) == 13 and len(expected_names) == 14, 'Expected 12 business shortcuts and 1 updater')
+require({p.parent.name for p in registered} == expected_names, 'Registered shortcut list differs from registry')
+for entry in registry:
+    require((SKILL / entry['guide']).is_file(), 'Missing shortcut method: ' + entry['name'])
+for path, content in generated_files().items():
+    require(path.is_file() and path.read_text(encoding='utf-8') == content,
+            'Shortcut or package metadata out of sync: ' + readable(path))
 require(len(list((SKILL / "internal").glob("*/GUIDE.md"))) == 12, "Expected 12 internal guides")
 knowledge = [p for area in ["commercial", "content", "operations", "learning"] for p in (SKILL / "knowledge" / area).glob("*.md")]
 require(len(knowledge) == 23, "Expected 23 knowledge chapters")
@@ -96,6 +110,9 @@ for path in files:
 plugin = manifests.get(ROOT / ".claude-plugin/plugin.json", {})
 marketplace = manifests.get(ROOT / ".claude-plugin/marketplace.json", {})
 require(plugin.get("name") == "duya" and plugin.get("version") == version, "Plugin name/version mismatch")
+package = manifests.get(SKILL / 'package.json', {})
+require(package.get('version') == version and set(package.get('components', [])) == expected_names,
+        'Core package version/components mismatch')
 require(marketplace.get("name") == "duya-skills", "Marketplace name mismatch")
 entries = marketplace.get("plugins", [])
 require(len(entries) == 1 and entries[0].get("source") == "./" and entries[0].get("version") == version, "Marketplace entry mismatch")
@@ -129,6 +146,6 @@ if errors:
     for error in errors:
         print("- " + error)
     sys.exit(1)
-print(f"PASS: {len(markdown)} Markdown files, {links} local links and anchors; 1 Skill, 12 guides, 23 knowledge chapters.")
+print(f"PASS: {len(markdown)} Markdown files, {links} local links and anchors; 14 entries, 12 guides, 23 knowledge chapters.")
 print("PASS: portable dependencies, JSON/manifests/MCP, Python syntax, SVG XML, public source boundary, generated handbook.")
 print("PASS: 12 theme definitions, gallery body HTML and input/output file hashes.")

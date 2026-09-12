@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 小红书与图文"
+  short_description: "生成或改写小红书标题、封面、单图、笔记和逐页图文。"
+  default_prompt: "用 $duya-xhs，这篇搬家保洁正文已定，只改标题和封面，让准备搬家的人愿意点开。"
+policy:
+  allow_implicit_invocation: true

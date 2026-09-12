@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 模板与内容研究"
+  short_description: "检索渡鸦模板库，研究图文和短视频的表达机制、对标内容与相邻赛道。"
+  default_prompt: "用 $duya-research，找几条家政保洁图文模板，说明哪条适合商家身份，再改一条给我。"
+policy:
+  allow_implicit_invocation: true

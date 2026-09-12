@@ -1,6 +1,6 @@
 interface:
   display_name: "墨涅斯 · 渡鸦获客副驾"
-  short_description: "判断商业与获客，创作线索内容，排查问题，设计矩阵团队，并通过量子阅读积累知识"
+  short_description: "商业与线索获客主入口，按需组合十二项业务能力；支持公众号排版、量子阅读与更新渡鸦"
   default_prompt: "用 $duya，帮我解决当前获客问题，给出专业判断和能直接用的方案或文案。"
 dependencies:
   tools:

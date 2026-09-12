@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 获客体系搭建"
+  short_description: "为经营者搭建或调整线上获客体系，选择平台、内容形式、准备工作与起步安排。"
+  default_prompt: "用 $duya-acquisition，我做家庭保洁，一个人负责内容，不想出镜，帮我选平台和起步方式。"
+policy:
+  allow_implicit_invocation: true

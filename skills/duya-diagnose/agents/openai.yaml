@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 获客问题诊断"
+  short_description: "排查没流量、咨询少、人群不对、账号异常和投入失效。"
+  default_prompt: "用 $duya-diagnose，装修视频评论都是同行，业主咨询很少，我该加账号还是改内容？"
+policy:
+  allow_implicit_invocation: true

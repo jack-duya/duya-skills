@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 矩阵与批量生产"
+  short_description: "设计自营账号、素人和达人合作的分发模式，以及图文和短视频批量生产。"
+  default_prompt: "用 $duya-matrix，三家门店都有现场素材，总部一位剪辑，设计账号分工和素材量产方式。"
+policy:
+  allow_implicit_invocation: true

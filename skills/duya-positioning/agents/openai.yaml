@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 客户与商业定位"
+  short_description: "判断应该服务谁、客户为什么购买、产品怎样承接定位。"
+  default_prompt: "用 $duya-positioning，客户总觉得我的获客陪跑只是教拍视频，帮我说清购买理由和产品价值。"
+policy:
+  allow_implicit_invocation: true

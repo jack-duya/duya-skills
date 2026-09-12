@@ -4,15 +4,17 @@
 
 > Business and lead acquisition Skills for business owners and content teams. Give Monies your business context, materials, or current obstacle, and get a reasoned decision, a practical plan, or finished content.
 
-[![Version](https://img.shields.io/badge/version-0.3.0-6D28D9.svg?style=flat-square)](VERSION)
-[![Capabilities](https://img.shields.io/badge/1%20entry-12%20capabilities-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
+[![Version](https://img.shields.io/badge/version-0.4.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Skills](https://img.shields.io/badge/Skills-1%20main%20%2F%2012%20shortcuts%20%2F%201%20updater-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
 **For Codex, Claude Code, Cursor, and Agents that can load complete Skill directories.** Detailed methods and the full tutorial are currently in Chinese.
 
-Maintained by [Duya](https://github.com/jack-duya). The professional foundation is business and lead acquisition knowledge. The Wanliu reasoning method works backward from an observed result to plausible causes, then turns that understanding into action. The package includes **one conversational entry, 12 internal capabilities, and 23 knowledge documents**.
+Maintained by [Duya](https://github.com/jack-duya). The professional foundation is business and lead acquisition knowledge. The Wanliu reasoning method works backward from an observed result to plausible causes, then turns that understanding into action. The package includes **one main entry, 12 business shortcuts, and one update entry**, sharing **12 business capabilities and 23 knowledge documents**.
 
-**v0.3.0:** WeChat article writing now includes typesetting with **12 original themes**, copyable article HTML, browser previews, and validation reports. Existing business, acquisition, template, team, and memory capabilities continue through the same entry. [Typesetting guide](docs/公众号排版.md) · [12-theme gallery](https://jack-duya.github.io/duya-skills/wechat-gallery/)
+**v0.4.0:** Select `$duya-video`, `$duya-wechat`, or another shortcut directly, or keep asking through `$duya`. Say “update Duya” in a Duya conversation to update the current installation. Older ordinary installations need one full installation first; plugins keep their native update path. [Update guide](docs/更新指南.md)
+
+WeChat typesetting, introduced in v0.3.0, includes **12 original themes**, copyable article HTML, browser previews, and validation reports. [Typesetting guide](docs/公众号排版.md) · [12-theme gallery](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
 [Quick start](#quick-start) · [Installation](#installation) · [Capabilities](#capabilities) · [Public handbook](#public-handbook) · [Full tutorial](docs/新手入门.md) · [Changes](CHANGELOG.md)
 
@@ -53,24 +55,27 @@ $duya Design content production for three stores and one editor.
 $duya Read this course and extract methods that apply to my business.
 ```
 
-Claude Code direct Skill installation uses `/duya`; marketplace installation uses `/duya:duya`. Internal capabilities are methods selected by the entry, not 12 separate commands.
+For a specific capability, use `$duya-video` or `$duya-wechat` in Codex. Claude Code direct installation uses `/duya-video`; marketplace installation uses `/duya:duya-video`. The main entries remain `/duya` and `/duya:duya` respectively.
 
 ## Capabilities
 
-| Task | Capability |
+Use `$duya` for natural conversation and task composition. The 13 shortcuts below share its core instructions and knowledge; the first 12 handle business tasks, and the last maintains your installation.
+
+| Codex shortcut | Purpose |
 |---|---|
-| Customers, buying reasons, and product fit | [Positioning](skills/duya/internal/duya-positioning/GUIDE.md) |
-| Build an online acquisition approach | [Acquisition](skills/duya/internal/duya-acquisition/GUIDE.md) |
-| Diagnose content, inquiry, or resource problems | [Diagnosis](skills/duya/internal/duya-diagnose/GUIDE.md) |
-| Plan topics and complementary content | [Content planning](skills/duya/internal/duya-content-plan/GUIDE.md) |
-| Research and adapt templates | [Research](skills/duya/internal/duya-research/GUIDE.md) |
-| Write lead-oriented short videos | [Video](skills/duya/internal/duya-video/GUIDE.md) |
-| Write headlines and image posts | [Xiaohongshu](skills/duya/internal/duya-xhs/GUIDE.md) |
-| Write and typeset an article with 12 original themes, HTML, preview, and report | [WeChat writing and typesetting](skills/duya/internal/duya-wechat/GUIDE.md) |
-| Plan or improve a livestream | [Livestreaming](skills/duya/internal/duya-live/GUIDE.md) |
-| Organize scalable content and distribution | [Matrix production](skills/duya/internal/duya-matrix/GUIDE.md) |
-| Design roles, hiring samples, and training | [Teams](skills/duya/internal/duya-team/GUIDE.md) |
-| Read, compare, and retain useful methods | [Learning](skills/duya/internal/duya-learning/GUIDE.md) |
+| `$duya-positioning` | [Positioning](skills/duya-positioning/SKILL.md): identify customers, buying reasons, and how the product supports its promise |
+| `$duya-acquisition` | [Acquisition](skills/duya-acquisition/SKILL.md): choose platforms, formats, preparation, and a practical starting plan |
+| `$duya-diagnose` | [Diagnosis](skills/duya-diagnose/SKILL.md): investigate views, inquiries, audience mismatch, account issues, and ineffective investment |
+| `$duya-content-plan` | [Content planning](skills/duya-content-plan/SKILL.md): choose concrete topics, angles, formats, and production priorities |
+| `$duya-research` | [Research](skills/duya-research/SKILL.md): retrieve real templates, explain their mechanisms, and adapt adjacent niches |
+| `$duya-video` | [Video](skills/duya-video/SKILL.md): deliver complete lead-oriented scripts, stronger openings, and shot arrangements |
+| `$duya-xhs` | [Xiaohongshu](skills/duya-xhs/SKILL.md): write headlines, covers, single images, notes, and image sequences |
+| `$duya-wechat` | [WeChat writing and typesetting](skills/duya-wechat/SKILL.md): write, revise, or preserve an article while generating themed HTML, a preview, and a report |
+| `$duya-live` | [Livestreaming](skills/duya-live/SKILL.md): plan topics and scripts, or turn recording problems into replacement passages |
+| `$duya-matrix` | [Matrix production](skills/duya-matrix/SKILL.md): organize owned accounts, partner distribution, and repeatable content production |
+| `$duya-team` | [Teams](skills/duya-team/SKILL.md): decide whom to hire, how to assign work, and how to train and evaluate |
+| `$duya-learning` | [Learning](skills/duya-learning/SKILL.md): explain course principles, conditions, counterexamples, and business applications |
+| `$duya-update` | [Update Duya](skills/duya-update/SKILL.md): check or update the installation, preserve backups and memory, and explain how to reload |
 
 See the [full capability directory](docs/新手入门.md#skill-全目录) for examples and expected deliverables.
 
@@ -80,7 +85,7 @@ Ask Duya to write and format an article, or provide a finished draft for formatt
 
 Each render produces three files: **article `.html`, browser `.preview.html`, and validation `.report.json`**. Open the preview and copy the article into the WeChat editor. If the copy button is unavailable, select the article and copy it manually. Check formatting, images, and tables in the actual editor and mobile preview before publishing.
 
-The local renderer uses the **Python 3.10+ standard library**, with no additional pip dependencies. Your Agent needs file access and Python execution. These themes remain part of the existing WeChat capability, accessed through `duya`.
+The local renderer uses the **Python 3.10+ standard library**, with no additional pip dependencies. Your Agent needs file access and Python execution. Access the same WeChat capability through `$duya-wechat` or the main `$duya` entry.
 
 [Typesetting guide](docs/公众号排版.md) · [Browse all 12 themes](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
@@ -89,10 +94,12 @@ The local renderer uses the **Python 3.10+ standard library**, with no additiona
 ### Skills CLI
 
 ```bash
-npx -y skills add jack-duya/duya-skills -g --skill duya
+npx -y skills add jack-duya/duya-skills -g --skill '*'
 ```
 
-Select your Agent, then start a new conversation. This installs the complete Skill, knowledge, and local tools. Add the template MCP separately using the [installation guide](docs/安装指南.md#模板-mcp-配置).
+Select your Agent, or append a specific client such as `--agent codex`, then start a new conversation. `--skill '*'` installs all **14 entries in this repository**, including the shared core, knowledge, and tools; it is not the `--all` option for every Agent. Shortcuts need a sibling `duya` core. Installing only `--skill duya` still supports every business capability through conversation, but omits independent shortcuts.
+
+Add the template MCP separately using the [installation guide](docs/安装指南.md#模板-mcp-配置).
 
 ### Claude Code marketplace
 
@@ -101,11 +108,13 @@ claude plugin marketplace add jack-duya/duya-skills
 claude plugin install duya@duya-skills
 ```
 
-This plugin includes the same Skill and the template MCP configuration. Restart the session and use `/duya:duya`.
+This plugin includes all 14 entries, shared knowledge, and the template MCP configuration. Restart the session and use `/duya:duya` or a shortcut such as `/duya:duya-video`.
 
 ### Updates
 
-For Skills CLI installations, repeat the installation command and select only `duya`. Marketplace update instructions are in the [guide](docs/安装指南.md#更新与卸载). Local memory is kept separately at `~/.duya/memory/`.
+With **0.4.0 or later**, say “update Duya” in a Duya conversation or use `$duya-update`. “Check for updates” is read-only. Ordinary installations through 0.3.x lack the updater; first run the full installation command above once. Claude Code plugin users can update through the native plugin channel without adding a separate Skill installation.
+
+For ordinary installations, the Python 3.10+ updater pins the latest official `main` commit for the download. It backs up official files before replacement, preserves unknown personal files, and leaves `~/.duya/memory/` untouched. Your edits to official files remain in the backup while new official content takes effect. Plugin caches use native plugin updates; Git checkouts update only from the correct origin with a clean working tree and a fast-forward. Failures are reported, and you may need a new conversation to reload. See the [update guide](docs/更新指南.md).
 
 ## How it works
 

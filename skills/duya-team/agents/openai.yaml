@@ -1,0 +1,6 @@
+interface:
+  display_name: "渡鸦 · 线上获客团队"
+  short_description: "按业务阶段设计线上获客团队，判断先招谁、怎样分工与取材交接，并给招聘试做、训练和评价方法，减少老板反复救火。"
+  default_prompt: "用 $duya-team，老板每天给剪辑找选题和改稿，先招谁，招聘时怎么判断他能不能干？"
+policy:
+  allow_implicit_invocation: true
