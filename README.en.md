@@ -4,7 +4,7 @@
 
 > Business and lead acquisition Skills for business owners and content teams. Give Monies your business context, materials, or current obstacle, and get a reasoned decision, a practical plan, or finished content.
 
-[![Version](https://img.shields.io/badge/version-0.2.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.3.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Capabilities](https://img.shields.io/badge/1%20entry-12%20capabilities-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
@@ -12,7 +12,7 @@
 
 Maintained by [Duya](https://github.com/jack-duya). The professional foundation is business and lead acquisition knowledge. The Wanliu reasoning method works backward from an observed result to plausible causes, then turns that understanding into action. The package includes **one conversational entry, 12 internal capabilities, and 23 knowledge documents**.
 
-**v0.2.0:** Rebuilt business and acquisition methods, detailed knowledge, a real template MCP, matrix and team design, reading and learning, and editable local project memory.
+**v0.3.0:** WeChat article writing now includes typesetting with **12 original themes**, copyable article HTML, browser previews, and validation reports. Existing business, acquisition, template, team, and memory capabilities continue through the same entry. [Typesetting guide](docs/公众号排版.md) · [12-theme gallery](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
 [Quick start](#quick-start) · [Installation](#installation) · [Capabilities](#capabilities) · [Public handbook](#public-handbook) · [Full tutorial](docs/新手入门.md) · [Changes](CHANGELOG.md)
 
@@ -27,6 +27,7 @@ Maintained by [Duya](https://github.com/jack-duya). The professional foundation 
 | Content gets views but few suitable inquiries | A diagnosis and concrete changes to audience, content, or the acquisition path |
 | You want more accounts, equipment, or distribution | A comparison of actual constraints and suitable ways to expand |
 | Your writing sounds generic or overly technical | Finished image posts, short-video scripts, headlines, or articles |
+| Your WeChat draft is ready, but formatting takes too long | A suitable theme and copyable, previewable formatting that preserves your text |
 | You found popular content but cannot adapt it | Template retrieval, mechanism analysis, and a grounded adaptation |
 | The owner rewrites everything and staff do not know what to film | Roles, material collection, production, and training arrangements |
 | Courses and previous decisions are difficult to reuse | Reading, method integration, and recoverable local records |
@@ -47,6 +48,7 @@ For a specific task, ask directly:
 ```text
 $duya Find a cleaning-service template and write a Xiaohongshu image post.
 $duya Rewrite this video opening without changing the facts.
+$duya Keep this article's text unchanged, choose a suitable theme, and produce HTML I can copy into the WeChat editor: …
 $duya Design content production for three stores and one editor.
 $duya Read this course and extract methods that apply to my business.
 ```
@@ -64,13 +66,23 @@ Claude Code direct Skill installation uses `/duya`; marketplace installation use
 | Research and adapt templates | [Research](skills/duya/internal/duya-research/GUIDE.md) |
 | Write lead-oriented short videos | [Video](skills/duya/internal/duya-video/GUIDE.md) |
 | Write headlines and image posts | [Xiaohongshu](skills/duya/internal/duya-xhs/GUIDE.md) |
-| Develop a complete long-form argument | [WeChat articles](skills/duya/internal/duya-wechat/GUIDE.md) |
+| Write and typeset an article with 12 original themes, HTML, preview, and report | [WeChat writing and typesetting](skills/duya/internal/duya-wechat/GUIDE.md) |
 | Plan or improve a livestream | [Livestreaming](skills/duya/internal/duya-live/GUIDE.md) |
 | Organize scalable content and distribution | [Matrix production](skills/duya/internal/duya-matrix/GUIDE.md) |
 | Design roles, hiring samples, and training | [Teams](skills/duya/internal/duya-team/GUIDE.md) |
 | Read, compare, and retain useful methods | [Learning](skills/duya/internal/duya-learning/GUIDE.md) |
 
 See the [full capability directory](docs/新手入门.md#skill-全目录) for examples and expected deliverables.
+
+### WeChat writing and typesetting
+
+Ask Duya to write and format an article, or provide a finished draft for formatting only. The 12 original themes vary in composition, heading treatment, quotations, typography, and reading rhythm. They support briefs, plans, stories, opinions, tutorials, Q&A, brand articles, checklists, interviews, and long reads. Duya chooses a suitable theme when you have no preference.
+
+Each render produces three files: **article `.html`, browser `.preview.html`, and validation `.report.json`**. Open the preview and copy the article into the WeChat editor. If the copy button is unavailable, select the article and copy it manually. Check formatting, images, and tables in the actual editor and mobile preview before publishing.
+
+The local renderer uses the **Python 3.10+ standard library**, with no additional pip dependencies. Your Agent needs file access and Python execution. These themes remain part of the existing WeChat capability, accessed through `duya`.
+
+[Typesetting guide](docs/公众号排版.md) · [Browse all 12 themes](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
 ## Installation
 

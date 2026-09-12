@@ -2,6 +2,7 @@
 from pathlib import Path
 from collections import Counter
 import ast
+import hashlib
 import json
 import re
 import sys
@@ -106,6 +107,23 @@ require((ROOT / "LICENSE").exists(), "Missing LICENSE")
 require((ROOT / "legacy/企业阿米巴模式架构师.txt").exists(), "Missing preserved legacy file")
 require(OUTPUT.exists() and OUTPUT.read_text(encoding="utf-8") == render(), "Handbook out of sync: run python scripts/build_handbook.py")
 
+# The public gallery must include real copyable output for every theme.
+sys.path.insert(0, str(SKILL / 'tools'))
+from wechat_layout import load_themes, validate
+themes = load_themes()['themes']
+gallery = ROOT / 'docs/wechat-gallery'
+sample = SKILL / 'assets/wechat/sample-article.md'
+for theme in themes:
+    base = 'sample-article.' + theme['id']
+    fragment_path = gallery / (base + '.html')
+    preview_path = gallery / (base + '.preview.html')
+    report = manifests.get(gallery / (base + '.report.json'), {})
+    require(fragment_path.is_file() and preview_path.is_file(), 'Missing gallery files: ' + base)
+    if fragment_path.is_file():
+        require(not validate(fragment_path.read_text(encoding='utf-8')), 'Invalid gallery body: ' + base)
+        require(report.get('ok') and report.get('output_sha256') == hashlib.sha256(fragment_path.read_bytes()).hexdigest(), 'Gallery output/report mismatch: ' + base)
+        require(report.get('source_sha256') == hashlib.sha256(sample.read_bytes()).hexdigest(), 'Gallery sample/report mismatch: ' + base)
+
 if errors:
     print("FAILED:")
     for error in errors:
@@ -113,3 +131,4 @@ if errors:
     sys.exit(1)
 print(f"PASS: {len(markdown)} Markdown files, {links} local links and anchors; 1 Skill, 12 guides, 23 knowledge chapters.")
 print("PASS: portable dependencies, JSON/manifests/MCP, Python syntax, SVG XML, public source boundary, generated handbook.")
+print("PASS: 12 theme definitions, gallery body HTML and input/output file hashes.")

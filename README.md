@@ -4,7 +4,7 @@
 
 > 面向经营者与流量团队的商业与线索获客 Skills。把你的生意、素材和卡点交给墨涅斯，拿到有依据的判断、能执行的方案和能直接用的内容。
 
-[![Version](https://img.shields.io/badge/version-0.2.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.3.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1%20入口%20%2F%2012%20能力-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
 [![Knowledge](https://img.shields.io/badge/知识库-23%20篇-0F766E.svg?style=flat-square)](skills/duya/knowledge/INDEX.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
@@ -13,7 +13,7 @@
 
 duya-skills 由[渡鸦](https://github.com/jack-duya)维护。以商业与获客知识为专业基础，用**万流归因诀：由果推因、由因解果**看清真正的问题，再完成内容创作、矩阵安排与团队设计。当前提供 **1 个自然对话入口、12 项内部能力和 23 篇专业知识**。
 
-**v0.2.0 更新：** 商业与线索获客体系重构；加入详细知识库、真实模板 MCP、矩阵与团队方法，以及量子阅读和可修正的本地记忆。
+**v0.3.0 更新：** 公众号能力加入写作后排版与已有文章纯排版，提供 **12 套原创主题**、可复制正文 HTML、浏览器预览和检查报告。商业判断、模板研究、矩阵团队与本地记忆继续沿用同一个入口。[查看排版教程](docs/公众号排版.md) · [浏览 12 套主题](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
 [快速开始](#快速开始) · [安装](#安装) · [能力一览](#能力一览) · [公开方法手册](#公开方法手册) · [完整使用教程](docs/新手入门.md) · [更新记录](CHANGELOG.md)
 
@@ -30,6 +30,7 @@ duya-skills 由[渡鸦](https://github.com/jack-duya)维护。以商业与获客
 | 发了不少作品，播放有了，合适咨询却不多 | 对人群、内容与路径的判断，及具体能改的地方 |
 | 觉得账号不够，准备买号、加设备、继续铺量 | 重新判断限制，比较自营、合作分发和内容改进 |
 | 小红书写得像说明书，短视频讲得像上课 | 有场景、有看点的图文、标题、完整脚本或文章 |
+| 公众号文章已经写好，排版费时又没有统一风格 | 按文章选择主题，保留原文，生成可预览和复制的排版 |
 | 找到了爆款，却不知道怎么改成自己的内容 | 真实模板检索、机制拆解、相邻赛道迁移与成稿 |
 | 老板天天改稿、员工不知道拍什么 | 矩阵生产方式、岗位分工、取材和训练安排 |
 | 读了很多课，知识还是接不到业务上 | 量子阅读、方法整合、适用条件与可恢复的记录 |
@@ -52,6 +53,7 @@ $duya 我做本地装修，施工视频同行看得多，业主咨询少。
 $duya 帮我找家政保洁的参考模板，写一篇小红书图文。
 $duya 这个短视频开头太像讲课，改成业主愿意听的，不改事实。
 $duya 给我写一篇公众号文章，讲小团队为什么不该只用产量考核剪辑。
+$duya 这篇文章不改文字，自动选主题，输出可复制到公众号的 HTML：……
 $duya 三家门店都有现场素材，老板和一位剪辑怎么做内容矩阵？
 $duya 读这份课程，提炼能用于我生意的方法，并说明哪些情况不适用。
 ```
@@ -69,13 +71,23 @@ Claude Code 直接安装 Skill 后使用 `/duya`；通过下方插件市场安�
 | 研究爆款和相邻赛道 | [模板与内容研究](skills/duya/internal/duya-research/GUIDE.md) | 模板正文、结构机制、迁移条件 |
 | 写得好看，也让客户看得懂 | [线索短视频](skills/duya/internal/duya-video/GUIDE.md) | 完整脚本、开头、镜头与素材安排 |
 | 写标题、单图、笔记与搜索内容 | [小红书与图文](skills/duya/internal/duya-xhs/GUIDE.md) | 标题、封面、正文和必要互动设计 |
-| 用长文讲清问题、建立理解与信任 | [公众号文章](skills/duya/internal/duya-wechat/GUIDE.md) | 完整文章、论证与传播表达 |
+| 用长文讲清问题，完成写作与排版 | [公众号写作与排版](skills/duya/internal/duya-wechat/GUIDE.md) | 完整文章、12 套主题、正文 HTML、预览与检查报告 |
 | 设计直播内容或改已有回放 | [获客直播](skills/duya/internal/duya-live/GUIDE.md) | 主题串、讲稿、过渡与具体修改 |
 | 把内容做成可持续的分发与生产 | [矩阵与批量生产](skills/duya/internal/duya-matrix/GUIDE.md) | 自营/合作选择、图文与短视频生产安排 |
 | 先招谁，谁来判断，怎样培养 | [线上获客团队](skills/duya/internal/duya-team/GUIDE.md) | 角色、工作样本、交接与训练方案 |
 | 理解课程，积累可复用的方法 | [量子阅读与学习](skills/duya/internal/duya-learning/GUIDE.md) | 深读、反例、方法整合与长期保存 |
 
 每项能力的适用时机、可复制的提问和主要结果，见[新手入门与 Skill 全目录](docs/新手入门.md#skill-全目录)。
+
+### 公众号写作与排版
+
+可以写好文章后一起排版，也可以把已定稿的文章直接交过来。12 套原创主题分别适合简报、方案、故事、观点、教程、问答、品牌、清单、访谈与长读，差异包括构图、章节、引用、字体和阅读节奏。没有指定风格时，渡鸦根据文章选一套直接完成。
+
+一次排版生成三个文件：**正文 `.html`、预览 `.preview.html`、检查报告 `.report.json`**。打开预览页复制正文，再粘贴到公众号编辑器；复制按钮不可用时可选中正文手动复制。发布前仍需在编辑器和手机预览中检查样式、图片与表格。
+
+本地排版工具使用 **Python 3.10+ 标准库**，无需额外安装 pip 依赖；客户端需要文件读写和 Python 执行能力。你仍然只使用 `duya` 一个入口。
+
+[查看完整排版教程](docs/公众号排版.md) · [在线比较 12 套主题](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
 ## 安装
 

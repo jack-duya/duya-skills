@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "default": "raven-brief",
+  "themes": [
+    {
+      "id": "raven-brief",
+      "name": "渡鸦简报",
+      "summary": "以紧凑报头和清晰横线组织判断、证据与下一步，适合日常业务表达。",
+      "use_cases": [
+        "获客策略简报",
+        "行业动态解读",
+        "方法结论发布"
+      ],
+      "colors": {
+        "accent": "#343E69",
+        "paper": "#FFFFFF",
+        "ink": "#1D2230",
+        "muted": "#5B6471",
+        "line": "#CCD2E0",
+        "tint": "#EEF0F8",
+        "highlight": "#EEE6B9"
+      },
+      "font": "sans",
+      "cover": "masthead",
+      "heading": "rule",
+      "quote": "rule",
+      "density": "balanced",
+      "align": "left",
+      "radius": 0,
+      "numbering": false
+    },
+    {
+      "id": "blueprint",
+      "name": "蓝图拆解",
+      "summary": "用分区开篇与编号章节建立推导顺序，让复杂方案可以逐步读懂。",
+      "use_cases": [
+        "获客体系搭建",
+        "产品方案拆解",
+        "业务流程教程"
+      ],
+      "colors": {
+        "accent": "#174D78",
+        "paper": "#F8FBFF",
+        "ink": "#172C3D",
+        "muted": "#566575",
+        "line": "#C5D8E8",
+        "tint": "#E7F0FA",
+        "highlight": "#F7E3AA"
+      },
+      "font": "sans",
+      "cover": "split",
+      "heading": "number",
+      "quote": "panel",
+      "density": "balanced",
+      "align": "left",
+      "radius": 6,
+      "numbering": true
+    },
+    {
+      "id": "warm-story",
+      "name": "暖页故事",
+      "summary": "以札记式开篇、衬线字体和放大的引句，给人物与真实经历留出叙述空间。",
+      "use_cases": [
+        "创始人故事",
+        "客户经历复盘",
+        "品牌成长记录"
+      ],
+      "colors": {
+        "accent": "#7A4733",
+        "paper": "#FFFBF5",
+        "ink": "#342B25",
+        "muted": "#6D6156",
+        "line": "#E0CEC0",
+        "tint": "#F5E8D9",
+        "highlight": "#F1DEBA"
+      },
+      "font": "serif",
+      "cover": "note",
+      "heading": "underline",
+      "quote": "large",
+      "density": "airy",
+      "align": "left",
+      "radius": 0,
+      "numbering": false
+    },
+    {
+      "id": "terracotta-opinion",
+      "name": "赤陶观点",
+      "summary": "以侧向色带和边栏标题强化立场，再用括形引述容纳论据与边界。",
+      "use_cases": [
+        "争议问题分析",
+        "经营误区辨析",
+        "观点型获客文章"
+      ],
+      "colors": {
+        "accent": "#963C2D",
+        "paper": "#FFFDF9",
+        "ink": "#302524",
+        "muted": "#71615C",
+        "line": "#DFC8C2",
+        "tint": "#F7E7E0",
+        "highlight": "#F1DFB7"
+      },
+      "font": "sans",
+      "cover": "stripe",
+      "heading": "rail",
+      "quote": "bracket",
+      "density": "balanced",
+      "align": "left",
+      "radius": 0,
+      "numbering": false
+    },
+    {
+      "id": "amber-steps",
+      "name": "琥珀步骤",
+      "summary": "以横带开篇、编号步骤和提示便笺组织操作，让读者边看边做。",
+      "use_cases": [
+        "操作教程",
+        "执行步骤说明",
+        "工具使用指南"
+      ],
+      "colors": {
+        "accent": "#785014",
+        "paper": "#FFFCF4",
+        "ink": "#30291D",
+        "muted": "#6D6351",
+        "line": "#DFD0AB",
+        "tint": "#F4EACD",
+        "highlight": "#F0D591"
+      },
+      "font": "sans",
+      "cover": "band",
+      "heading": "number",
+      "quote": "note",
+      "density": "compact",
+      "align": "left",
+      "radius": 6,
+      "numbering": true
+    },
+    {
+      "id": "stream-qa",
+      "name": "溪流问答",
+      "summary": "用分区开篇、标签式问题和双线答疑，让常见疑问与解释成组出现。",
+      "use_cases": [
+        "购买顾虑解答",
+        "服务常见问题",
+        "专业知识答疑"
+      ],
+      "colors": {
+        "accent": "#1E666B",
+        "paper": "#F8FDFC",
+        "ink": "#173237",
+        "muted": "#526A6B",
+        "line": "#C3D9D7",
+        "tint": "#E4F1EE",
+        "highlight": "#F1E8B7"
+      },
+      "font": "sans",
+      "cover": "split",
+      "heading": "tab",
+      "quote": "double",
+      "density": "balanced",
+      "align": "left",
+      "radius": 12,
+      "numbering": false
+    },
+    {
+      "id": "harbor-brand",
+      "name": "深港品牌",
+      "summary": "用留白边框、衬线标题与轻量章节章印，建立克制且有辨识度的品牌叙述。",
+      "use_cases": [
+        "品牌理念文章",
+        "高客单服务介绍",
+        "专业主张发布"
+      ],
+      "colors": {
+        "accent": "#274967",
+        "paper": "#FBFAF6",
+        "ink": "#202D37",
+        "muted": "#5D6670",
+        "line": "#C9D0D5",
+        "tint": "#E8EDF0",
+        "highlight": "#EBDDBE"
+      },
+      "font": "serif",
+      "cover": "frame",
+      "heading": "stamp",
+      "quote": "rule",
+      "density": "airy",
+      "align": "center",
+      "radius": 0,
+      "numbering": false
+    },
+    {
+      "id": "workshop-plan",
+      "name": "工尺方案",
+      "summary": "以报头、左轨章节和证据面板提高信息密度，适合交付具体方案与协作规则。",
+      "use_cases": [
+        "线上团队分工",
+        "矩阵运营方案",
+        "项目执行说明"
+      ],
+      "colors": {
+        "accent": "#414A57",
+        "paper": "#FFFFFF",
+        "ink": "#222832",
+        "muted": "#606875",
+        "line": "#C8CFD8",
+        "tint": "#EDF0F4",
+        "highlight": "#E9DCA8"
+      },
+      "font": "sans",
+      "cover": "masthead",
+      "heading": "rail",
+      "quote": "panel",
+      "density": "compact",
+      "align": "left",
+      "radius": 0,
+      "numbering": false
+    },
+    {
+      "id": "berry-insight",
+      "name": "莓色洞察",
+      "summary": "以窄色带、下划线章节和醒目引句连接反常识发现与具体证据。",
+      "use_cases": [
+        "人群心理洞察",
+        "内容规律研究",
+        "反常识观点解析"
+      ],
+      "colors": {
+        "accent": "#823553",
+        "paper": "#FFFAFC",
+        "ink": "#34252F",
+        "muted": "#71616C",
+        "line": "#E0CBD5",
+        "tint": "#F4E4EB",
+        "highlight": "#F4DCC3"
+      },
+      "font": "sans",
+      "cover": "stripe",
+      "heading": "underline",
+      "quote": "large",
+      "density": "airy",
+      "align": "left",
+      "radius": 6,
+      "numbering": false
+    },
+    {
+      "id": "pine-checklist",
+      "name": "松野清单",
+      "summary": "以横带和短标签形成快速扫描节奏，把注意事项、选择项与检查项排清楚。",
+      "use_cases": [
+        "选品检查清单",
+        "避坑要点汇总",
+        "内容发布前检查"
+      ],
+      "colors": {
+        "accent": "#315E41",
+        "paper": "#FBFDF7",
+        "ink": "#273126",
+        "muted": "#5F6A5A",
+        "line": "#CED8C4",
+        "tint": "#EAF0DF",
+        "highlight": "#EEE2B7"
+      },
+      "font": "sans",
+      "cover": "band",
+      "heading": "tab",
+      "quote": "bracket",
+      "density": "compact",
+      "align": "left",
+      "radius": 6,
+      "numbering": false
+    },
+    {
+      "id": "echo-dialogue",
+      "name": "远声对谈",
+      "summary": "以札记封面、章节章印与双线引述区分话题和声音，保留对话的呼吸感。",
+      "use_cases": [
+        "专家访谈",
+        "客户对话整理",
+        "团队经验交流"
+      ],
+      "colors": {
+        "accent": "#634C80",
+        "paper": "#FDFCFF",
+        "ink": "#302838",
+        "muted": "#6C6277",
+        "line": "#D7CCE3",
+        "tint": "#EEE7F5",
+        "highlight": "#EEDFC4"
+      },
+      "font": "serif",
+      "cover": "note",
+      "heading": "stamp",
+      "quote": "double",
+      "density": "airy",
+      "align": "left",
+      "radius": 12,
+      "numbering": false
+    },
+    {
+      "id": "ink-longread",
+      "name": "墨页长读",
+      "summary": "以素净边框、横线章节和小型旁注维持长文秩序，让复杂内容持续可读。",
+      "use_cases": [
+        "商业方法长文",
+        "深度行业研究",
+        "系统知识整理"
+      ],
+      "colors": {
+        "accent": "#444143",
+        "paper": "#FCFBF8",
+        "ink": "#2B2928",
+        "muted": "#696462",
+        "line": "#D6D1CA",
+        "tint": "#EEEAE4",
+        "highlight": "#E8DDC4"
+      },
+      "font": "serif",
+      "cover": "frame",
+      "heading": "rule",
+      "quote": "note",
+      "density": "airy",
+      "align": "left",
+      "radius": 0,
+      "numbering": false
+    }
+  ]
+}
