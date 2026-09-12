@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "moyaclaw-template-mcp": {
+      "type": "http",
+      "url": "http://43.242.194.25:3170/mcp"
+    }
+  }
+}

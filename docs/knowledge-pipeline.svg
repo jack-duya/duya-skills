@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title description">
+  <title id="title">渡鸦 Skills：知识如何进入判断、执行与长期学习</title>
+  <desc id="description">课程、旧业务方法、真实案例与新资料经过辨别来源、提炼条件和比较反例，形成按需读取的知识。墨涅斯调用相关能力和模板工具交付结果。确认的信息、选择和修正可以保存在项目本地记忆，下次检索和使用。原课程与参考资料的公开范围按各自授权区分，记忆不等于模型训练。</desc>
+  <defs>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+      .brand { fill: #E9E0FE; font-size: 19px; font-weight: 700; letter-spacing: 2px; }
+      .hero { fill: #FFFFFF; font-size: 42px; font-weight: 750; }
+      .lead { fill: #CBC6DC; font-size: 20px; }
+      .step { fill: #7F698F; font-size: 14px; font-weight: 700; letter-spacing: 1px; }
+      .heading { fill: #2F253D; font-size: 24px; font-weight: 700; }
+      .body { fill: #66596F; font-size: 18px; }
+      .white { fill: #FFFFFF; }
+      .lavender { fill: #E9DFFC; }
+      .section { fill: #393047; font-size: 24px; font-weight: 700; }
+      .label { fill: #352A42; font-size: 22px; font-weight: 700; }
+      .small { fill: #66596F; font-size: 18px; }
+      .footer { fill: #5B4B6D; font-size: 19px; font-weight: 500; }
+      .card { fill: #FFFFFF; stroke: #DED7E6; stroke-width: 1.5; }
+      .connector { fill: none; stroke: #8C72B4; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1 L9 5 L1 9" fill="none" stroke="#8C72B4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></marker>
+  </defs>
+  <rect width="1200" height="900" rx="24" fill="#F7F5F9" />
+  <path d="M24 0 H1176 Q1200 0 1200 24 V212 H0 V24 Q0 0 24 0Z" fill="#201B30" />
+  <g transform="translate(57 45)" fill="none" stroke="#BAA0E9" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M0 28 L11 4 L37 0 L27 13 L42 18 L25 22 L14 34 Z" />
+    <path d="M4 26 L24 10 M14 34 L25 22" />
+  </g>
+  <text class="brand" x="113" y="73" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#E9E0FE" font-size="19" font-weight="700" letter-spacing="2">DUYA SKILLS · 知识与学习</text>
+  <text class="hero" x="56" y="135" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#FFFFFF" font-size="42" font-weight="750">知识有来处，方法有条件，判断可修正</text>
+  <text class="lead" x="56" y="177" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#CBC6DC" font-size="20">把商业、内容与团队经验接到真实任务，再把有价值的纠正留给下一次。</text>
+
+  <rect class="card" x="56" y="252" width="248" height="236" rx="18" fill="#FFFFFF" stroke="#DED7E6" stroke-width="1.5" />
+  <text class="step" x="78" y="287" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#7F698F" font-size="14" font-weight="700" letter-spacing="1">01 · 理解来源</text>
+  <text class="heading" x="78" y="332" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#2F253D" font-size="24" font-weight="700">课程与业务经验</text>
+  <text class="body" x="78" y="377" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">课程方法 · 旧墨鸦</text>
+  <text class="body" x="78" y="411" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">真实案例 · 用户资料</text>
+  <text class="body" x="78" y="455" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">区分事实、观点与假设</text>
+
+  <path class="connector" d="M307 369 H325 M319 364 L325 369 L319 374" fill="none" stroke="#8C72B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="336" y="252" width="248" height="236" rx="18" fill="#EEE8F6" stroke="#D4C5E3" stroke-width="1.5" />
+  <text class="step" x="358" y="287" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#7F698F" font-size="14" font-weight="700" letter-spacing="1">02 · 按问题组织</text>
+  <text class="heading" x="358" y="332" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#2F253D" font-size="24" font-weight="700">按需读取的知识</text>
+  <text class="body" x="358" y="377" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">商业 · 内容 · 组织</text>
+  <text class="body" x="358" y="411" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">方法 · 案例 · 适用条件</text>
+  <text class="body" x="358" y="455" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">保留反例与观点分歧</text>
+
+  <path class="connector" d="M587 369 H605 M599 364 L605 369 L599 374" fill="none" stroke="#8C72B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="616" y="252" width="248" height="236" rx="18" fill="#694399" />
+  <text class="step lavender" x="638" y="287" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#E9DFFC" font-size="14" font-weight="700" letter-spacing="1">03 · 回到当前任务</text>
+  <text class="heading white" x="638" y="332" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#FFFFFF" font-size="24" font-weight="700">专业判断与执行</text>
+  <text class="body lavender" x="638" y="377" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#E9DFFC" font-size="18">墨涅斯与内部能力</text>
+  <text class="body lavender" x="638" y="411" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#E9DFFC" font-size="18">按需调取真实图文模板</text>
+  <text class="body lavender" x="638" y="455" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#E9DFFC" font-size="18">产出方案、文案与安排</text>
+
+  <path class="connector" d="M867 369 H885 M879 364 L885 369 L879 374" fill="none" stroke="#8C72B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect class="card" x="896" y="252" width="248" height="236" rx="18" fill="#FFFFFF" stroke="#DED7E6" stroke-width="1.5" />
+  <text class="step" x="918" y="287" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#7F698F" font-size="14" font-weight="700" letter-spacing="1">04 · 留下有效积累</text>
+  <text class="heading" x="918" y="332" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#2F253D" font-size="24" font-weight="700">可修正的本地记忆</text>
+  <text class="body" x="918" y="377" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">确认的背景与选择</text>
+  <text class="body" x="918" y="411" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">成稿位置 · 方法与纠正</text>
+  <text class="body" x="918" y="455" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">下次检索、修正或删除</text>
+
+  <path class="connector" d="M1020 488 V529 H740 V495 M735 501 L740 495 L745 501" fill="none" stroke="#8C72B4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="810" y="515" width="170" height="29" rx="14" fill="#F7F5F9" />
+  <text class="small" x="895" y="535" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">恢复后继续使用</text>
+
+  <text class="section" x="56" y="590" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#393047" font-size="24" font-weight="700">三种可直接使用的积累</text>
+  <rect class="card" x="56" y="620" width="344" height="160" rx="18" fill="#FFFFFF" stroke="#DED7E6" stroke-width="1.5" />
+  <circle cx="84" cy="651" r="5" fill="#9A7CC2" />
+  <text class="label" x="103" y="659" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#352A42" font-size="22" font-weight="700">公开方法手册</text>
+  <text class="small" x="78" y="705" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">按获客问题阅读完整方法</text>
+  <text class="small" x="78" y="737" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">公开范围与资料来源分别说明</text>
+
+  <rect class="card" x="428" y="620" width="344" height="160" rx="18" fill="#FFFFFF" stroke="#DED7E6" stroke-width="1.5" />
+  <circle cx="456" cy="651" r="5" fill="#BC8D52" />
+  <text class="label" x="475" y="659" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#352A42" font-size="22" font-weight="700">专业知识库</text>
+  <text class="small" x="450" y="705" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">按能力进入相关知识与案例</text>
+  <text class="small" x="450" y="737" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">需要时读取，用新证据修正</text>
+
+  <rect class="card" x="800" y="620" width="344" height="160" rx="18" fill="#FFFFFF" stroke="#DED7E6" stroke-width="1.5" />
+  <circle cx="828" cy="651" r="5" fill="#668F88" />
+  <text class="label" x="847" y="659" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#352A42" font-size="22" font-weight="700">项目本地记忆</text>
+  <text class="small" x="822" y="705" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">保存在你的设备，独立于插件</text>
+  <text class="small" x="822" y="737" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#66596F" font-size="18">不要求提交发布、咨询或成交表</text>
+
+  <path d="M56 815 H1144" stroke="#DDD5E7" stroke-width="1.5" />
+  <circle cx="65" cy="847" r="5" fill="#8C69B5" />
+  <text class="footer" x="83" y="853" font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, sans-serif" fill="#5B4B6D" font-size="19" font-weight="500">量子阅读负责理解与迁移；长期积累依靠可读取的记录和修正。</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "duya-skills",
+  "owner": {"name": "渡鸦", "url": "https://github.com/jack-duya"},
+  "metadata": {"description": "渡鸦商业与线索获客 Skills", "version": "0.2.0"},
+  "plugins": [
+    {
+      "name": "duya",
+      "source": "./",
+      "description": "商业判断、线索内容、获客诊断、矩阵团队与长期学习。",
+      "version": "0.2.0",
+      "author": {"name": "渡鸦"},
+      "license": "CC-BY-NC-4.0"
+    }
+  ]
+}

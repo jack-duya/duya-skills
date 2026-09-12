@@ -1,0 +1,9 @@
+* text=auto eol=lf
+legacy/*.txt -text
+*.md text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.svg text eol=lf
+LICENSE text eol=lf
+VERSION text eol=lf

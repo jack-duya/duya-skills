@@ -1,0 +1,13 @@
+interface:
+  display_name: "墨涅斯 · 渡鸦获客副驾"
+  short_description: "判断商业与获客，创作线索内容，排查问题，设计矩阵团队，并通过量子阅读积累知识"
+  default_prompt: "用 $duya，帮我解决当前获客问题，给出专业判断和能直接用的方案或文案。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "moyaclaw-template-mcp"
+      description: "只读模板推荐、赛道与别名、模板全文和图片链接"
+      transport: "streamable_http"
+      url: "http://43.242.194.25:3170/mcp"
+policy:
+  allow_implicit_invocation: true
