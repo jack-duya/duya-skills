@@ -4,7 +4,7 @@
 
 > Business and lead acquisition Skills for business owners and content teams. Give Monies your business context, materials, or current obstacle, and get a reasoned decision, a practical plan, or finished content.
 
-[![Version](https://img.shields.io/badge/version-0.4.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.5.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1%20main%20%2F%2012%20shortcuts%20%2F%201%20updater-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
@@ -12,7 +12,9 @@
 
 Maintained by [Duya](https://github.com/jack-duya). The professional foundation is business and lead acquisition knowledge. The Wanliu reasoning method works backward from an observed result to plausible causes, then turns that understanding into action. The package includes **one main entry, 12 business shortcuts, and one update entry**, sharing **12 business capabilities and 23 knowledge documents**.
 
-**v0.4.0:** Select `$duya-video`, `$duya-wechat`, or another shortcut directly, or keep asking through `$duya`. Say “update Duya” in a Duya conversation to update the current installation. Older ordinary installations need one full installation first; plugins keep their native update path. [Update guide](docs/更新指南.md)
+**v0.5.0:** Quantum Reading now includes a detailed tutorial, a complete worked example, and an openable knowledge folder. Save linked Markdown notes to your chosen Obsidian vault, or use ordinary Markdown without Obsidian. [Tutorial and examples](docs/量子阅读.md)
+
+Select `$duya-video`, `$duya-wechat`, or another shortcut directly, or keep asking through `$duya`. Version 0.4.0 and later supports “update Duya”; older ordinary installations need one full installation first. Plugins keep their native update path. [Update guide](docs/更新指南.md)
 
 WeChat typesetting, introduced in v0.3.0, includes **12 original themes**, copyable article HTML, browser previews, and validation reports. [Typesetting guide](docs/公众号排版.md) · [12-theme gallery](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
@@ -74,7 +76,7 @@ Use `$duya` for natural conversation and task composition. The 13 shortcuts belo
 | `$duya-live` | [Livestreaming](skills/duya-live/SKILL.md): plan topics and scripts, or turn recording problems into replacement passages |
 | `$duya-matrix` | [Matrix production](skills/duya-matrix/SKILL.md): organize owned accounts, partner distribution, and repeatable content production |
 | `$duya-team` | [Teams](skills/duya-team/SKILL.md): decide whom to hire, how to assign work, and how to train and evaluate |
-| `$duya-learning` | [Learning](skills/duya-learning/SKILL.md): explain course principles, conditions, counterexamples, and business applications |
+| `$duya-learning` | [Learning](skills/duya-learning/SKILL.md): explain methods, build complete applications, save Markdown knowledge with optional Obsidian links, and reuse it later |
 | `$duya-update` | [Update Duya](skills/duya-update/SKILL.md): check or update the installation, preserve backups and memory, and explain how to reload |
 
 See the [full capability directory](docs/新手入门.md#skill-全目录) for examples and expected deliverables.
@@ -137,6 +139,12 @@ A small edit stays small. A valid expansion request gets an expansion plan. Ther
 The [knowledge library](skills/duya/knowledge/INDEX.md) covers business, content, operations, and learning. [Source notes](skills/duya/knowledge/SOURCES.md) distinguish source claims, examples, and new recommendations.
 
 The template MCP returns relevant text and image URLs. Local file tools can save, retrieve, correct, and delete project records. This is actual file storage, not background model training. You do not need a publication log, CRM, or complete sales dataset to use the Skill.
+
+Quantum Reading can save detailed notes, sources, applications, and meaningful links to an existing Obsidian vault chosen by you. No extra MCP or community plugin is required. Without Obsidian, the same knowledge remains usable as Markdown. [Detailed tutorial](docs/量子阅读.md) · [Working example folder](docs/learning-example/) · [Example ZIP](docs/quantum-reading-example.zip)
+
+![User-provided Obsidian knowledge graph](docs/images/quantum-reading-obsidian-user.png)
+
+The screenshot was supplied by the user and shows an existing knowledge library. It was not generated from the six-note example or validated as a learning outcome. The downloadable example contains the actual notes and links produced by this release.
 
 ## Public handbook
 

@@ -31,6 +31,24 @@ metadata:
 
 示例：`{entry['example']}`
 '''
+        if name == 'duya-learning':
+            content += '''
+## 直接这样使用
+
+```text
+$duya-learning 读这份课程，讲透关键方法和适用条件，给一个完整应用案例。
+$duya-learning 把这些资料整理为可检索的知识库，存到我指定的 Obsidian 库，保留来源并建立有理由的双向链接。
+$duya-learning 从上次保存的知识库找到相关方法，先读原笔记，再帮我解决这次问题。
+```
+
+提供文件、文件夹、可访问链接或直接贴正文即可；已有业务背景沿用。深读按“审查材料 → 提炼判断 → 应用与反例 → 整理和复用”完成，不要求用户逐阶段输入下一步。
+
+你会拿到清楚解释、带条件的方法、完整案例及需要的知识文件。选择 Obsidian 时实际保存 Markdown、索引与内部链接；没有 Obsidian 也能拿到普通 Markdown 知识库。保存位置不明确时才确认，不覆盖同名旧笔记冒充更新。
+
+- [查看完整教学原文](../duya/assets/learning/sample-source.md)与[完整知识包示例](../duya/assets/learning/demo-bundle.json)：来源、方法、概念、两种成稿和待确认问题。
+- [Obsidian 的实际保存与再次检索](../duya/references/obsidian.md)。
+- [用户教程、效果图与可下载示例库](https://github.com/jack-duya/duya-skills/blob/main/docs/量子阅读.md)。
+'''
         files[ROOT / 'skills' / name / 'SKILL.md'] = content
         files[ROOT / 'skills' / name / 'agents/openai.yaml'] = (
             'interface:\n'

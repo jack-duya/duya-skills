@@ -12,7 +12,7 @@
     {"name":"duya-live","title":"获客直播","description":"设计获客直播话题、整场结构、讲稿和过渡，或依据现有回放排查进房、留人和表达问题，给可以直接替换的讲法。","guide":"internal/duya-live/GUIDE.md","example":"这段直播讲解太专业，观众听不懂，帮我找断点并写能直接替换的讲稿。"},
     {"name":"duya-matrix","title":"矩阵与批量生产","description":"设计自营账号、素人和达人合作的分发模式，以及图文和短视频批量生产。处理账号职责、素材复用、差异内容和协作投入。","guide":"internal/duya-matrix/GUIDE.md","example":"三家门店都有现场素材，总部一位剪辑，设计账号分工和素材量产方式。"},
     {"name":"duya-team","title":"线上获客团队","description":"按业务阶段设计线上获客团队，判断先招谁、怎样分工与取材交接，并给招聘试做、训练和评价方法，减少老板反复救火。","guide":"internal/duya-team/GUIDE.md","example":"老板每天给剪辑找选题和改稿，先招谁，招聘时怎么判断他能不能干？"},
-    {"name":"duya-learning","title":"量子阅读与学习","description":"深读课程、书籍和业务资料，解释原理、提炼带条件和反例的方法，演示业务应用，整理知识并保存值得沿用的背景。","guide":"internal/duya-learning/GUIDE.md","example":"读这份课程，提炼能用于我的获客业务的方法，用具体任务演示并整理成知识。"},
+    {"name":"duya-learning","title":"量子阅读与学习","description":"深读课程与书籍，提炼带条件的方法和完整案例，生成可检索的知识库，可存入Obsidian并建立有依据的双向链接。支持普通Markdown交付、观点比较与读取旧知识应用。","guide":"internal/duya-learning/GUIDE.md","example":"读这份课程，提炼能用的方法与完整案例；如果我指定了Obsidian库，就保存笔记和有依据的关联。"},
     {"name":"duya-update","title":"更新渡鸦","description":"检查并更新已安装的渡鸦duya-skills，获取官方GitHub最新版本，备份被替换文件并保留项目记忆。用于更新渡鸦技能，不用于改文案或更新业务数据。","guide":"references/update.md","example":"更新渡鸦，保留我的项目记忆，完成后告诉我版本和需要怎样重新加载。"}
   ]
 }

@@ -1,6 +1,6 @@
 interface:
   display_name: "渡鸦 · 量子阅读与学习"
-  short_description: "深读课程、书籍和业务资料，解释原理、提炼带条件和反例的方法，演示业务应用，整理知识并保存值得沿用的背景。"
-  default_prompt: "用 $duya-learning，读这份课程，提炼能用于我的获客业务的方法，用具体任务演示并整理成知识。"
+  short_description: "深读课程与书籍，提炼带条件的方法和完整案例，生成可检索的知识库，可存入Obsidian并建立有依据的双向链接。"
+  default_prompt: "用 $duya-learning，读这份课程，提炼能用的方法与完整案例；如果我指定了Obsidian库，就保存笔记和有依据的关联。"
 policy:
   allow_implicit_invocation: true

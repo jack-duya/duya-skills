@@ -5,6 +5,7 @@ import ast
 import hashlib
 import json
 import re
+import subprocess
 import sys
 import unicodedata
 from urllib.parse import unquote, urlsplit
@@ -52,6 +53,8 @@ anchor_cache = {p: anchors(t) for p, t in texts.items()}
 links = 0
 for source, text in texts.items():
     for target in re.findall(r"\]\(([^\s)]+)\)", prose(text)):
+        if target.startswith('<') and target.endswith('>'):
+            target = target[1:-1]
         parts = urlsplit(target)
         if parts.scheme or target.startswith("//"):
             continue
@@ -123,6 +126,12 @@ require(root_mcp.get("mcpServers", {}).get("moyaclaw-template-mcp") == {
 require((ROOT / "LICENSE").exists(), "Missing LICENSE")
 require((ROOT / "legacy/企业阿米巴模式架构师.txt").exists(), "Missing preserved legacy file")
 require(OUTPUT.exists() and OUTPUT.read_text(encoding="utf-8") == render(), "Handbook out of sync: run python scripts/build_handbook.py")
+
+# Generate in a temporary folder: the published notes and ZIP must remain reproducible.
+learning_example = subprocess.run([sys.executable, '-B', '-X', 'utf8',
+                                  str(ROOT / 'scripts/build_learning_example.py'), '--check'],
+                                 capture_output=True, text=True, encoding='utf-8')
+require(learning_example.returncode == 0, 'Learning example/ZIP out of sync: ' + learning_example.stdout + learning_example.stderr)
 
 # The public gallery must include real copyable output for every theme.
 sys.path.insert(0, str(SKILL / 'tools'))

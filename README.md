@@ -4,7 +4,7 @@
 
 > 面向经营者与流量团队的商业与线索获客 Skills。把你的生意、素材和卡点交给墨涅斯，拿到有依据的判断、能执行的方案和能直接用的内容。
 
-[![Version](https://img.shields.io/badge/version-0.4.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.5.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1主入口%20%2F%2012快捷%20%2F%201更新-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
 [![Knowledge](https://img.shields.io/badge/知识库-23%20篇-0F766E.svg?style=flat-square)](skills/duya/knowledge/INDEX.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
@@ -13,7 +13,9 @@
 
 duya-skills 由[渡鸦](https://github.com/jack-duya)维护。以商业与获客知识为专业基础，用**万流归因诀：由果推因、由因解果**看清真正的问题，再完成内容创作、矩阵安排与团队设计。当前提供 **1 个主入口、12 个业务快捷入口、1 个更新入口**，共用 **12 项业务能力和 23 篇专业知识**。
 
-**v0.4.0 更新：** 可以直接选 `$duya-video`、`$duya-wechat` 等具体能力，也可以继续用 `$duya` 自然提问；在渡鸦对话里说“更新渡鸦”，就按当前安装方式执行更新。旧版普通安装首次升级需运行一次完整安装命令，插件安装沿用原生更新。[查看更新指南](docs/更新指南.md)
+**v0.5.0 更新：** 量子阅读补齐详细教程、完整案例与可打开的示例知识库，支持把阅读成果保存进你选择的 **Obsidian**，生成 Markdown 笔记、索引和有依据的双向链接。没有 Obsidian 也能直接使用 Markdown。[查看量子阅读教程与效果图](docs/量子阅读.md)
+
+可以直接选 `$duya-video`、`$duya-wechat` 等具体能力，也可以继续用 `$duya` 自然提问；已有 0.4.0 时说“更新渡鸦”即可按安装方式升级。更早普通安装先完整安装一次，插件安装沿用原生更新。[查看更新指南](docs/更新指南.md)
 
 公众号排版自 v0.3.0 加入，提供 **12 套原创主题**、可复制正文 HTML、浏览器预览和检查报告。[查看排版教程](docs/公众号排版.md) · [浏览 12 套主题](https://jack-duya.github.io/duya-skills/wechat-gallery/)
 
@@ -79,7 +81,7 @@ $duya 读这份课程，提炼能用于我生意的方法，并说明哪些情�
 | `$duya-live` | [获客直播](skills/duya-live/SKILL.md)：设计直播内容或排查回放断点 | 主题串、讲稿、过渡与可替换讲法 |
 | `$duya-matrix` | [矩阵与批量生产](skills/duya-matrix/SKILL.md)：组织账号、合作分发与素材量产 | 自营/合作选择、账号职责和生产安排 |
 | `$duya-team` | [线上获客团队](skills/duya-team/SKILL.md)：先招谁、怎样分工和培养 | 角色、招聘试做、取材交接与训练方法 |
-| `$duya-learning` | [量子阅读与学习](skills/duya-learning/SKILL.md)：深读课程、提炼方法与业务应用 | 原理、条件、反例、应用示范与长期保存 |
+| `$duya-learning` | [量子阅读与学习](skills/duya-learning/SKILL.md)：深读资料、完整案例与知识复用 | 方法、成稿、来源索引、Markdown 知识库及可选 Obsidian 保存 |
 | `$duya-update` | [更新渡鸦](skills/duya-update/SKILL.md)：检查或更新当前安装 | 当前与最新版本、备份、更新结果和重新加载方式 |
 
 每项能力的适用时机、可复制的提问和主要结果，见[新手入门与 Skill 全目录](docs/新手入门.md#skill-全目录)。
@@ -162,6 +164,22 @@ npx -y skills add jack-duya/duya-skills -g --skill '*'
 - 保留重要背景：说“记住这个决定”“接着上次”“把这个偏好改掉”，支持本地文件工具的环境可以实际保存、恢复和修正。
 
 记忆默认保存在你自己的 `~/.duya/memory/`，按项目区分。你给了结果就利用，没给就没有；普通使用不要求登记作品、线索和成交，也没有作业入口。具体能力见[记忆说明](skills/duya/references/memory.md)。
+
+## 量子阅读：读懂、用出来、存得住
+
+```text
+$duya-learning 读这份课程，提炼对我有用的方法，解释条件和反例，给一个完整应用案例。
+把知识整理到我指定的 Obsidian 库里，保留来源，并把有关联的笔记连接起来。
+```
+
+从原文到方法，不只输出结论；从方法到应用，要给完整稿件或方案；保存后，下次可以要求渡鸦找出原笔记再使用。Obsidian 是可选存储位置，已有库直接沿用，不需要额外 MCP 或社区插件。没有安装时，同样交付 Markdown 文件夹。
+
+- [详细使用方法与完整案例](docs/量子阅读.md)：六类提问、完整阅读过程、两种应用写法、保存与下次复用。
+- [查看可打开的示例知识库](docs/learning-example/) · [下载示例 ZIP](docs/quantum-reading-example.zip)：用教学原文生成的 5 篇笔记和 1 篇索引，包含实际内部链接。
+
+![用户提供的 Obsidian 知识库关系图展示](docs/images/quantum-reading-obsidian-user.png)
+
+上图由用户提供，展示其既有知识库的关系图；不是这次六篇示例笔记生成的图，也不代表使用一次就能达到相同规模。可下载示例库展示的是本版本实际生成的文件和链接。
 
 ## 公开方法手册
 
