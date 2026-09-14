@@ -1,0 +1,7 @@
+interface:
+  display_name: "墨界采集"
+  short_description: "挂载墨界采集助手并按侧栏可见功能采集各平台数据"
+  default_prompt: "Use $moyaclaw-collect to install the Moyaclaw collector and run a visible collect task."
+
+policy:
+  allow_implicit_invocation: true

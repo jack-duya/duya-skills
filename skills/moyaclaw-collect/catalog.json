@@ -1,0 +1,57 @@
+{
+  "extensionName": "墨界采集助手",
+  "extensionVersion": "3.5.2",
+  "platforms": {
+    "douyin": {
+      "name": "抖音",
+      "origin": "https://www.douyin.com",
+      "aliases": ["抖音"]
+    },
+    "xiaohongshu": {
+      "name": "小红书",
+      "origin": "https://www.xiaohongshu.com",
+      "aliases": ["小红书", "xhs"]
+    },
+    "kuaishou": {
+      "name": "快手",
+      "origin": "https://www.kuaishou.com",
+      "aliases": ["快手"]
+    },
+    "bilibili": {
+      "name": "B站",
+      "origin": "https://www.bilibili.com",
+      "aliases": ["B站", "哔哩哔哩", "bili"]
+    },
+    "tiktok": {
+      "name": "TikTok",
+      "origin": "https://www.tiktok.com",
+      "aliases": ["tiktok"]
+    },
+    "xingtu": {
+      "name": "巨量星图",
+      "origin": "https://www.xingtu.cn",
+      "aliases": ["星图", "巨量星图"]
+    },
+    "pgy.xiaohongshu": {
+      "name": "小红书蒲公英",
+      "origin": "https://pgy.xiaohongshu.com",
+      "aliases": ["蒲公英", "pgy"]
+    }
+  },
+  "keywordCollectBy": {
+    "bilibili": "keywords",
+    "*": "keyword"
+  },
+  "outOfScope": [
+    "mix-aweme",
+    "favorite-aweme",
+    "board-note",
+    "search-invite",
+    "search-note",
+    "search-blogger",
+    "search-author",
+    "page-download",
+    "page-copy",
+    "feishu"
+  ]
+}

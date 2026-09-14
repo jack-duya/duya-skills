@@ -1,0 +1,87 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "3.5.2",
+  "icons": {
+    "16": "icon/16.png",
+    "32": "icon/32.png",
+    "48": "icon/48.png",
+    "96": "icon/96.png",
+    "128": "icon/128.png"
+  },
+  "default_locale": "zh_CN",
+  "minimum_chrome_version": "116",
+  "permissions": [
+    "tabs",
+    "downloads",
+    "storage",
+    "scripting",
+    "cookies",
+    "alarms",
+    "sidePanel"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "墨界采集助手"
+  },
+  "commands": {
+    "_execute_action": { "suggested_key": { "default": "Alt+C" } }
+  },
+  "background": { "service_worker": "background.js" },
+  "options_ui": { "open_in_tab": true, "page": "options.html" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://b23.tv/*",
+        "*://live.kuaishou.com/*",
+        "*://pgy.xiaohongshu.com/*",
+        "*://search.bilibili.com/*",
+        "*://space.bilibili.com/*",
+        "*://v.douyin.com/*",
+        "*://v.kuaishou.com/*",
+        "*://vt.tiktok.com/*",
+        "*://www.bilibili.com/*",
+        "*://www.douyin.com/*",
+        "*://www.iesdouyin.com/*",
+        "*://www.kuaishou.com/*",
+        "*://www.rednote.com/*",
+        "*://www.tiktok.com/*",
+        "*://www.xiaohongshu.com/*",
+        "*://www.xingtu.cn/*",
+        "*://xhslink.cn/*",
+        "*://xhslink.com/*"
+      ],
+      "run_at": "document_start",
+      "js": ["content-scripts/content.js"],
+      "world": "ISOLATED"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["content-scripts/content.css", "content-scripts/main.js"],
+      "use_dynamic_url": false,
+      "matches": [
+        "*://b23.tv/*",
+        "*://live.kuaishou.com/*",
+        "*://pgy.xiaohongshu.com/*",
+        "*://search.bilibili.com/*",
+        "*://space.bilibili.com/*",
+        "*://v.douyin.com/*",
+        "*://v.kuaishou.com/*",
+        "*://vt.tiktok.com/*",
+        "*://www.bilibili.com/*",
+        "*://www.douyin.com/*",
+        "*://www.iesdouyin.com/*",
+        "*://www.kuaishou.com/*",
+        "*://www.rednote.com/*",
+        "*://www.tiktok.com/*",
+        "*://www.xiaohongshu.com/*",
+        "*://www.xingtu.cn/*",
+        "*://xhslink.cn/*",
+        "*://xhslink.com/*"
+      ]
+    }
+  ]
+}
