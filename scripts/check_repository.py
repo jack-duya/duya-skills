@@ -76,8 +76,10 @@ for source, text in texts.items():
 registry = json.loads((SKILL / 'references/shortcuts.json').read_text(encoding='utf-8'))['entries']
 registered = list(SKILL.parent.glob('*/SKILL.md'))
 expected_names = {'duya'} | {entry['name'] for entry in registry}
+independent_names = {'moyaclaw-collect'}
 require(len(registry) == 13 and len(expected_names) == 14, 'Expected 12 business shortcuts and 1 updater')
-require({p.parent.name for p in registered} == expected_names, 'Registered shortcut list differs from registry')
+require({p.parent.name for p in registered} == expected_names | independent_names,
+        'Registered Skills differ from core registry and independent companions')
 for entry in registry:
     require((SKILL / entry['guide']).is_file(), 'Missing shortcut method: ' + entry['name'])
 for path, content in generated_files().items():
@@ -85,7 +87,7 @@ for path, content in generated_files().items():
             'Shortcut or package metadata out of sync: ' + readable(path))
 require(len(list((SKILL / "internal").glob("*/GUIDE.md"))) == 12, "Expected 12 internal guides")
 knowledge = [p for area in ["commercial", "content", "operations", "learning"] for p in (SKILL / "knowledge" / area).glob("*.md")]
-require(len(knowledge) == 23, "Expected 23 knowledge chapters")
+require(len(knowledge) == 24, "Expected 24 knowledge chapters")
 require(texts[SKILL / "SKILL.md"].startswith("---\nname: duya\n"), "Main Skill frontmatter/name mismatch")
 require(not (SKILL / "knowledge/source-texts").exists(), "Raw source archive must stay outside public package")
 require(not (SKILL / "knowledge/source-images").exists(), "Raw course slides must stay outside public package")
@@ -106,7 +108,9 @@ for path in files:
     if path.suffix == ".svg":
         try:
             document = ET.parse(path)
-            require(document.getroot().attrib.get("viewBox") == "0 0 1200 900", "Unexpected SVG dimensions: " + readable(path))
+            # The separately maintained collector includes platform icons with their own dimensions.
+            if not path.is_relative_to(ROOT / 'skills/moyaclaw-collect'):
+                require(document.getroot().attrib.get("viewBox") == "0 0 1200 900", "Unexpected SVG dimensions: " + readable(path))
         except ET.ParseError:
             errors.append("Invalid SVG: " + readable(path))
 
@@ -155,6 +159,6 @@ if errors:
     for error in errors:
         print("- " + error)
     sys.exit(1)
-print(f"PASS: {len(markdown)} Markdown files, {links} local links and anchors; 14 entries, 12 guides, 23 knowledge chapters.")
+print(f"PASS: {len(markdown)} Markdown files, {links} local links and anchors; 14 core entries, 1 independent Skill, 12 guides, 24 knowledge chapters.")
 print("PASS: portable dependencies, JSON/manifests/MCP, Python syntax, SVG XML, public source boundary, generated handbook.")
 print("PASS: 12 theme definitions, gallery body HTML and input/output file hashes.")

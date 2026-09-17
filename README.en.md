@@ -4,15 +4,19 @@
 
 > Business and lead acquisition Skills for business owners and content teams. Give Monies your business context, materials, or current obstacle, and get a reasoned decision, a practical plan, or finished content.
 
-[![Version](https://img.shields.io/badge/version-0.5.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.6.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1%20main%20%2F%2012%20shortcuts%20%2F%201%20updater-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
 **For Codex, Claude Code, Cursor, and Agents that can load complete Skill directories.** Detailed methods and the full tutorial are currently in Chinese.
 
-Maintained by [Duya](https://github.com/jack-duya). The professional foundation is business and lead acquisition knowledge. The Wanliu reasoning method works backward from an observed result to plausible causes, then turns that understanding into action. The package includes **one main entry, 12 business shortcuts, and one update entry**, sharing **12 business capabilities and 23 knowledge documents**.
+Maintained by [Duya](https://github.com/jack-duya). The professional foundation is business and lead acquisition knowledge. The Wanliu reasoning method works backward from an observed result to plausible causes, then turns that understanding into action. The package includes **one main entry, 12 business shortcuts, and one update entry**, sharing **12 business capabilities and 24 knowledge documents**.
 
-**v0.5.0:** Quantum Reading now includes a detailed tutorial, a complete worked example, and an openable knowledge folder. Save linked Markdown notes to your chosen Obsidian vault, or use ordinary Markdown without Obsidian. [Tutorial and examples](docs/量子阅读.md)
+**v0.6.0:** Topic planning and lead acquisition video workflows now develop ideas, knowledge and drafts into clear audience outcomes, deeper judgments and relevant viewing reasons. Material choices and revisions preserve the author's intent. Concrete samples clarify meaningful direction choices; clear requests proceed directly. Keep using `$duya-content-plan` and `$duya-video`. [Workflow](skills/duya/knowledge/content/topic-production.md) · [Tutorial](docs/新手入门.md#内容创作与传播)
+
+The repository also contains the independent [Moyaclaw collector](skills/moyaclaw-collect/SKILL.md). It is separate from the core entries above and is not replaced by the Duya core updater.
+
+Quantum Reading still supports detailed examples, Markdown knowledge folders and optional Obsidian export. [Tutorial and examples](docs/量子阅读.md)
 
 Select `$duya-video`, `$duya-wechat`, or another shortcut directly, or keep asking through `$duya`. Version 0.4.0 and later supports “update Duya”; older ordinary installations need one full installation first. Plugins keep their native update path. [Update guide](docs/更新指南.md)
 
@@ -68,7 +72,7 @@ Use `$duya` for natural conversation and task composition. The 13 shortcuts belo
 | `$duya-positioning` | [Positioning](skills/duya-positioning/SKILL.md): identify customers, buying reasons, and how the product supports its promise |
 | `$duya-acquisition` | [Acquisition](skills/duya-acquisition/SKILL.md): choose platforms, formats, preparation, and a practical starting plan |
 | `$duya-diagnose` | [Diagnosis](skills/duya-diagnose/SKILL.md): investigate views, inquiries, audience mismatch, account issues, and ineffective investment |
-| `$duya-content-plan` | [Content planning](skills/duya-content-plan/SKILL.md): choose concrete topics, angles, formats, and production priorities |
+| `$duya-content-plan` | [Lead acquisition topics and planning](skills/duya-content-plan/SKILL.md): develop ideas, knowledge, experiences, or drafts into a clear insight and relevant topic; recover a draft's intended direction, plan a series, and continue to a complete script when requested |
 | `$duya-research` | [Research](skills/duya-research/SKILL.md): retrieve real templates, explain their mechanisms, and adapt adjacent niches |
 | `$duya-video` | [Video](skills/duya-video/SKILL.md): deliver complete lead-oriented scripts, stronger openings, and shot arrangements |
 | `$duya-xhs` | [Xiaohongshu](skills/duya-xhs/SKILL.md): write headlines, covers, single images, notes, and image sequences |

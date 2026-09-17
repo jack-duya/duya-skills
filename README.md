@@ -4,16 +4,20 @@
 
 > 面向经营者与流量团队的商业与线索获客 Skills。把你的生意、素材和卡点交给墨涅斯，拿到有依据的判断、能执行的方案和能直接用的内容。
 
-[![Version](https://img.shields.io/badge/version-0.5.0-6D28D9.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.6.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1主入口%20%2F%2012快捷%20%2F%201更新-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
-[![Knowledge](https://img.shields.io/badge/知识库-23%20篇-0F766E.svg?style=flat-square)](skills/duya/knowledge/INDEX.md)
+[![Knowledge](https://img.shields.io/badge/知识库-24%20篇-0F766E.svg?style=flat-square)](skills/duya/knowledge/INDEX.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
 **支持：Codex、Claude Code、Cursor，以及能够加载完整 Skills 目录的 Agent。** 不同客户端的入口与 MCP 配置方式见[安装指南](docs/安装指南.md)。
 
-duya-skills 由[渡鸦](https://github.com/jack-duya)维护。以商业与获客知识为专业基础，用**万流归因诀：由果推因、由因解果**看清真正的问题，再完成内容创作、矩阵安排与团队设计。当前提供 **1 个主入口、12 个业务快捷入口、1 个更新入口**，共用 **12 项业务能力和 23 篇专业知识**。
+duya-skills 由[渡鸦](https://github.com/jack-duya)维护。以商业与获客知识为专业基础，用**万流归因诀：由果推因、由因解果**看清真正的问题，再完成内容创作、矩阵安排与团队设计。当前提供 **1 个主入口、12 个业务快捷入口、1 个更新入口**，共用 **12 项业务能力和 24 篇专业知识**。
 
-**v0.5.0 更新：** 量子阅读补齐详细教程、完整案例与可打开的示例知识库，支持把阅读成果保存进你选择的 **Obsidian**，生成 Markdown 笔记、索引和有依据的双向链接。没有 Obsidian 也能直接使用 Markdown。[查看量子阅读教程与效果图](docs/量子阅读.md)
+**v0.6.0 更新：** 选题与线索短视频流程全面升级。把你想讲的观点、知识或原稿交过来，渡鸦会帮助理清观众要学会什么、深挖判断、扩展相关人群，再完成对题且有观看理由的内容。关键方向有分歧时用小样帮助选择，已确定的方向直接完成；多轮修改持续保留你的原意。原有 `$duya-content-plan` 和 `$duya-video` 命令继续使用。[查看新版用法](docs/新手入门.md#内容创作与传播) · [阅读完整方法](skills/duya/knowledge/content/topic-production.md)
+
+仓库还包含独立的 [墨界采集助手](skills/moyaclaw-collect/SKILL.md)，它不计入上述渡鸦核心入口，更新与使用范围见该技能说明；渡鸦核心更新器不替换这个独立目录。
+
+量子阅读支持详细案例、Markdown 知识库和可选 **Obsidian** 保存，原有能力继续可用。[查看教程与效果图](docs/量子阅读.md)
 
 可以直接选 `$duya-video`、`$duya-wechat` 等具体能力，也可以继续用 `$duya` 自然提问；已有 0.4.0 时说“更新渡鸦”即可按安装方式升级。更早普通安装先完整安装一次，插件安装沿用原生更新。[查看更新指南](docs/更新指南.md)
 
@@ -73,7 +77,7 @@ $duya 读这份课程，提炼能用于我生意的方法，并说明哪些情�
 | `$duya-positioning` | [客户与商业定位](skills/duya-positioning/SKILL.md)：服务谁、为什么买、产品怎样承接 | 客户处境、购买理由、定位与产品取舍 |
 | `$duya-acquisition` | [获客体系搭建](skills/duya-acquisition/SKILL.md)：从零开始或调整已有路线 | 平台、形式、准备工作与起步方案 |
 | `$duya-diagnose` | [获客问题诊断](skills/duya-diagnose/SKILL.md)：播放、咨询、人群、账号或投入有问题 | 原因判断、条件与实际改法 |
-| `$duya-content-plan` | [选题与内容规划](skills/duya-content-plan/SKILL.md)：不知道下一步讲什么 | 具体切口、内容形式与制作优先次序 |
+| `$duya-content-plan` | [线索获客选题与规划](skills/duya-content-plan/SKILL.md)：有想法想讲透、原稿改偏，或需要一组选题 | 核心判断、相关人群、具体切口与系列安排；需要时继续完成完整稿 |
 | `$duya-research` | [模板与内容研究](skills/duya-research/SKILL.md)：找模板、拆爆款、迁移相邻赛道 | 真实模板、表达机制、迁移条件与改稿 |
 | `$duya-video` | [线索短视频](skills/duya-video/SKILL.md)：写完整脚本、优化开头与口播 | 可拍稿、镜头顺序、情绪与素材安排 |
 | `$duya-xhs` | [小红书与图文](skills/duya-xhs/SKILL.md)：写标题、封面、单图、笔记与逐页图文 | 标题、封面、正文和必要互动设计 |
@@ -155,7 +159,7 @@ npx -y skills add jack-duya/duya-skills -g --skill '*'
 
 ## 知识库与本地记录
 
-公开包包含 **23 篇详细知识**，覆盖商业判断、内容表达、矩阵团队与方法学习。
+公开包包含 **24 篇详细知识**，覆盖商业判断、选题生产、内容表达、矩阵团队与方法学习。
 
 - 查看完整范围与导航：[专业知识库](skills/duya/knowledge/INDEX.md)。
 - 理解内核：[墨涅斯的判断](skills/duya/references/monies-persona.md)与[万流归因诀](skills/duya/references/wanliu-kernel.md)。

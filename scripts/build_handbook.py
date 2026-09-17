@@ -12,7 +12,7 @@ GROUPS = [
         "customer-demand", "positioning-buying-reasons", "product-paths",
         "acquisition-design", "content-judgment-bridge", "diagnosis-playbook", "worked-cases"]),
     ("内容与传播", "content", [
-        "content-task-map", "attention-emotion", "reference-transfer", "short-video-craft",
+        "content-task-map", "topic-production", "attention-emotion", "reference-transfer", "short-video-craft",
         "xhs-graphic-craft", "wechat-longform", "live-craft", "platform-adaptation"]),
     ("矩阵与线上团队", "operations", [
         "matrix-decisions", "batch-production", "team-design", "recruit-train-incentives", "operations-cases"]),
@@ -39,7 +39,7 @@ def render():
         "# 渡鸦 · 商业与线索获客手册\n\n",
         "[返回主页](../README.md) · [怎样使用渡鸦](../docs/新手入门.md) · "
         "[知识库导航](../skills/duya/knowledge/INDEX.md)\n\n",
-        "这份手册把 duya-skills 的 23 篇专业知识合为连续阅读版。"
+        "这份手册把 duya-skills 的 24 篇专业知识合为连续阅读版。"
         "先理解客户为什么买，再决定内容怎样讲、渠道怎样做、团队怎样运转。"
         "日常使用渡鸦时无需先读完手册，直接提出问题即可。\n\n",
         "内容包括实践方法、适用条件、改写示例与反例。课程案例与静态示例不代表本产品的实际运行成绩。"
@@ -84,4 +84,4 @@ def render():
 if __name__ == "__main__":
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(render(), encoding="utf-8")
-    print("Generated reading edition: 23 chapters.")
+    print("Generated reading edition: 24 chapters.")

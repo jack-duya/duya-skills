@@ -19,6 +19,7 @@
 | 问题 | 知识 |
 |---|---|
 | 起号、信任、购买判断、咨询分别写什么？ | [内容任务](content/content-task-map.md) |
+| 怎样把想法、知识、经历或原稿发展成值得讲透的线索获客选题？ | [选题生产](content/topic-production.md) |
 | 怎样把情绪、人性与网感写进原句？ | [注意力与情绪](content/attention-emotion.md) |
 | 模板怎么研究，怎样跨赛道迁移？ | [参考与迁移](content/reference-transfer.md) |
 | 线索短视频如何写得能看、能拍、能理解？ | [短视频制作](content/short-video-craft.md) |

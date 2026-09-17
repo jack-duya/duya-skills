@@ -4,7 +4,7 @@
     {"name":"duya-positioning","title":"客户与商业定位","description":"判断应该服务谁、客户为什么购买、产品怎样承接定位。用于目标客户模糊、卖点说不清、客户觉得不值或产品与承诺不匹配。","guide":"internal/duya-positioning/GUIDE.md","example":"客户总觉得我的获客陪跑只是教拍视频，帮我说清购买理由和产品价值。"},
     {"name":"duya-acquisition","title":"获客体系搭建","description":"为经营者搭建或调整线上获客体系，选择平台、内容形式、准备工作与起步安排。用于不知道从哪里开始，或需要把现有人手和素材组织起来。","guide":"internal/duya-acquisition/GUIDE.md","example":"我做家庭保洁，一个人负责内容，不想出镜，帮我选平台和起步方式。"},
     {"name":"duya-diagnose","title":"获客问题诊断","description":"排查没流量、咨询少、人群不对、账号异常和投入失效。结合商业与内容知识由果推因，重新定义问题并给具体改法。","guide":"internal/duya-diagnose/GUIDE.md","example":"装修视频评论都是同行，业主咨询很少，我该加账号还是改内容？"},
-    {"name":"duya-content-plan","title":"选题与内容规划","description":"策划起号、日常更新和系列内容的具体选题，连接客户处境、观看理由与购买理由，给出切口、形式和制作优先次序。","guide":"internal/duya-content-plan/GUIDE.md","example":"家政新号不知道发什么，用现有服务现场素材给我一组能拍的选题。"},
+    {"name":"duya-content-plan","title":"线索获客选题与规划","description":"把想法、知识、经历或原稿发展为线索获客选题，兼顾深挖、传播与完整成稿。用于表达方向不清、内容浅或越改越偏，也支持起号、日常更新和系列规划；已有方向沿用，关键分歧才用小样引导确认。","guide":"internal/duya-content-plan/GUIDE.md","example":"我想讲为什么团队越大老板越忙，帮我从这个想法找到值得讲透的判断，发展成能让相关人愿意看的获客选题。"},
     {"name":"duya-research","title":"模板与内容研究","description":"检索渡鸦模板库，研究图文和短视频的表达机制、对标内容与相邻赛道。需要找真实模板、拆解爆款或迁移改写时使用。","guide":"internal/duya-research/GUIDE.md","example":"找几条家政保洁图文模板，说明哪条适合商家身份，再改一条给我。"},
     {"name":"duya-video","title":"线索短视频","description":"创作与改写以获客为目的的短视频，优化开头、口播、情绪和镜头安排。交付完整可拍稿，按抖音、小红书和视频号的具体需要适配。","guide":"internal/duya-video/GUIDE.md","example":"把这段装修口播改得像老板在工地跟业主说话，给完整旁白和镜头顺序。"},
     {"name":"duya-xhs","title":"小红书与图文","description":"生成或改写小红书标题、封面、单图、笔记和逐页图文。围绕具体人群与搜索推荐场景写内容，需要时使用真实模板。","guide":"internal/duya-xhs/GUIDE.md","example":"这篇搬家保洁正文已定，只改标题和封面，让准备搬家的人愿意点开。"},
