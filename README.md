@@ -21,7 +21,7 @@
 
 **v0.6.0 更新：** 选题与线索短视频流程全面升级。把你想讲的观点、知识或原稿交过来，渡鸦会帮助理清观众要学会什么、深挖判断、扩展相关人群，再完成对题且有观看理由的内容。关键方向有分歧时用小样帮助选择，已确定的方向直接完成；多轮修改持续保留你的原意。原有 `$duya-content-plan` 和 `$duya-video` 命令继续使用。[查看新版用法](docs/新手入门.md#内容创作与传播) · [阅读完整方法](skills/duya/knowledge/content/topic-production.md)
 
-仓库还包含独立的 [墨界采集助手](skills/moyaclaw-collect/SKILL.md)，它不计入上述渡鸦核心入口，更新与使用范围见该技能说明；渡鸦核心更新器不替换这个独立目录。
+仓库还包含独立的 [墨界采集助手](skills/moyaclaw-collect/SKILL.md)，它不计入上述渡鸦核心入口，更新与使用范围见该技能说明；渡鸦核心更新器不替换这个独立目录。[查看采集插件图文使用教程](skills/moyaclaw-collect/docs/使用教程.md)
 
 量子阅读支持详细案例、Markdown 知识库和可选 **Obsidian** 保存，原有能力继续可用。[查看教程与效果图](docs/量子阅读.md)
 
@@ -210,7 +210,7 @@ $duya-learning 读这份课程，提炼对我有用的方法，解释条件和�
 
 ## 作者与支持
 
-作者：**渡鸦 · jack-duya** · [GitHub 主页](https://github.com/jack-duya)
+作者：**琛哥** · [GitHub 主页](https://github.com/jack-duya)
 
 使用问题和改进建议，可[提交 Issue](https://github.com/jack-duya/duya-skills/issues)。描述你给了什么材料、哪一段不符合预期，以及希望怎样改变即可；公开反馈前请隐去客户隐私。
 

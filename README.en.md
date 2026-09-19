@@ -20,7 +20,7 @@ The package includes **one main entry, 12 business shortcuts, and one update ent
 
 **v0.6.0:** Topic planning and lead acquisition video workflows now develop ideas, knowledge and drafts into clear audience outcomes, deeper judgments and relevant viewing reasons. Material choices and revisions preserve the author's intent. Concrete samples clarify meaningful direction choices; clear requests proceed directly. Keep using `$duya-content-plan` and `$duya-video`. [Workflow](skills/duya/knowledge/content/topic-production.md) · [Tutorial](docs/新手入门.md#内容创作与传播)
 
-The repository also contains the independent [Moyaclaw collector](skills/moyaclaw-collect/SKILL.md). It is separate from the core entries above and is not replaced by the Duya core updater.
+The repository also contains the independent [Moyaclaw collector](skills/moyaclaw-collect/SKILL.md). It is separate from the core entries above and is not replaced by the Duya core updater. [Illustrated installation and usage guide (Chinese)](skills/moyaclaw-collect/docs/使用教程.md)
 
 Quantum Reading still supports detailed examples, Markdown knowledge folders and optional Obsidian export. [Tutorial and examples](docs/量子阅读.md)
 
@@ -173,7 +173,7 @@ The page and tutorial organization is inspired by [dontbesilent2025/dbskill](htt
 
 ## Author and support
 
-Author: **Duya · jack-duya** · [GitHub profile](https://github.com/jack-duya)
+Author: **琛哥** · [GitHub profile](https://github.com/jack-duya)
 
 Report usage problems through [Issues](https://github.com/jack-duya/duya-skills/issues). For commercial licensing, contact Duya through the contact information on the GitHub profile.
 
