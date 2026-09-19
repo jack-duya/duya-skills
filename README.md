@@ -2,7 +2,7 @@
 
 简体中文 | [English](README.en.md)
 
-> 懂商业、懂流量，帮你把获客做起来。
+> 面向经营者与流量团队的商业与线索获客 Skills。把你的生意、素材和卡点交给墨涅斯，拿到有依据的判断、能执行的方案和能直接用的内容。
 
 [![Version](https://img.shields.io/badge/version-0.6.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1主入口%20%2F%2012快捷%20%2F%201更新-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)

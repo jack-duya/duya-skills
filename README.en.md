@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | English
 
-> Business judgment and content expertise to help you build customer acquisition that works.
+> Business and lead acquisition Skills for business owners and content teams. Give Monies your business context, materials, or current obstacle, and get a reasoned decision, a practical plan, or finished content.
 
 [![Version](https://img.shields.io/badge/version-0.6.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1%20main%20%2F%2012%20shortcuts%20%2F%201%20updater-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
