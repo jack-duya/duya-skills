@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | English
 
-> Business and lead acquisition Skills for business owners and content teams. Give Monies your business context, materials, or current obstacle, and get a reasoned decision, a practical plan, or finished content.
+> Business judgment and content expertise to help you build customer acquisition that works.
 
 [![Version](https://img.shields.io/badge/version-0.6.0-6D28D9.svg?style=flat-square)](VERSION)
 [![Skills](https://img.shields.io/badge/Skills-1%20main%20%2F%2012%20shortcuts%20%2F%201%20updater-7C3AED.svg?style=flat-square)](docs/新手入门.md#skill-全目录)
@@ -10,7 +10,13 @@
 
 **For Codex, Claude Code, Cursor, and Agents that can load complete Skill directories.** Detailed methods and the full tutorial are currently in Chinese.
 
-Maintained by [Duya](https://github.com/jack-duya). The professional foundation is business and lead acquisition knowledge. The Wanliu reasoning method works backward from an observed result to plausible causes, then turns that understanding into action. The package includes **one main entry, 12 business shortcuts, and one update entry**, sharing **12 business capabilities and 24 knowledge documents**.
+Built by the [Duya team](https://github.com/jack-duya) on four years of practical experience, drawing on real business and customer acquisition questions from the **40,000+ members of the Duya community**. The system brings business judgment, audience development, content creation, and team operations into a professional Skills toolkit you can use directly and keep up to date.
+
+Business logic provides the foundation; the Wanliu method guides the judgment: **work backward from an observed result to identify the key causes, then turn that understanding into actions suited to the business.** From customer positioning and online acquisition planning to topics, copywriting, multi-account content operations, and team design, Duya connects content reach, customer trust, and acquisition through your own customer channels and communities.
+
+Describe your business, what you want to do, or where you are stuck. Duya uses the context already available to assess the problem, draw on relevant knowledge, research materials, and deliver a plan or finished content. Confirmed lessons can be retained to inform future work.
+
+The package includes **one main entry, 12 business shortcuts, and one update entry**, sharing **12 business capabilities and 24 knowledge documents**.
 
 **v0.6.0:** Topic planning and lead acquisition video workflows now develop ideas, knowledge and drafts into clear audience outcomes, deeper judgments and relevant viewing reasons. Material choices and revisions preserve the author's intent. Concrete samples clarify meaningful direction choices; clear requests proceed directly. Keep using `$duya-content-plan` and `$duya-video`. [Workflow](skills/duya/knowledge/content/topic-production.md) · [Tutorial](docs/新手入门.md#内容创作与传播)
 
