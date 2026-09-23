@@ -206,15 +206,17 @@ $duya-learning 读这份课程，提炼对我有用的方法，解释条件和�
 
 由[渡鸦](https://github.com/jack-duya)维护。欢迎用真实问题、具体改稿和可核验的案例帮助完善这套方法；贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 
-页面与教程结构参考 [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill)，感谢其公开分享。渡鸦的业务定位、使用方式、文档与图示已重新编写，来源关系见[致谢与引用](NOTICE.md)。
-
 ## 作者与支持
 
 作者：**琛哥** · [GitHub 主页](https://github.com/jack-duya)
 
-使用问题和改进建议，可[提交 Issue](https://github.com/jack-duya/duya-skills/issues)。描述你给了什么材料、哪一段不符合预期，以及希望怎样改变即可；公开反馈前请隐去客户隐私。
+已有 **4 万＋创业者** 在渡鸦社群学习矩阵流量获客，目前已开到 **第 80 群**。
 
-商业使用或合作授权，请通过 GitHub 主页所列联系方式联系渡鸦。
+**🔗 联系琛哥，看这里**
+
+想交流矩阵流量获客、了解渡鸦社群，或咨询商业合作与授权，扫描下方微信二维码联系我。
+
+![扫码添加琛哥微信，交流矩阵流量获客与渡鸦社群](docs/images/chengge-wechat-qr.jpg)
 
 ## 许可证
 

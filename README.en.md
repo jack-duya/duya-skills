@@ -169,13 +169,17 @@ Original course texts, private client files, and personal memory are not distrib
 
 Maintained by [Duya](https://github.com/jack-duya). Concrete examples and corrections are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-The page and tutorial organization is inspired by [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill). Duya's positioning, descriptions, examples, and diagrams have been rewritten. See [NOTICE.md](NOTICE.md).
-
 ## Author and support
 
 Author: **琛哥** · [GitHub profile](https://github.com/jack-duya)
 
-Report usage problems through [Issues](https://github.com/jack-duya/duya-skills/issues). For commercial licensing, contact Duya through the contact information on the GitHub profile.
+More than **40,000 entrepreneurs** learn multi-account content distribution and customer acquisition in the Duya community, which has now opened its **80th group**.
+
+**🔗 Contact 琛哥**
+
+Scan the WeChat QR code below to discuss customer acquisition, learn about the Duya community, or ask about commercial collaboration and licensing.
+
+![Scan to add 琛哥 on WeChat and discuss customer acquisition and the Duya community](docs/images/chengge-wechat-qr.jpg)
 
 ## License
 
